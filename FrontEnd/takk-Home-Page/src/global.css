@@ -15,20 +15,33 @@ body {
   --font-size-2xl: 26px;
   --font-size-3xl: 30px;
   --font-size-4xl: 32px;
-  --font-size-5xl: 48px;
+  --font-size-5xl: 40px;
+  --font-size-6xl: 48px;
+  --font-size-7xl: 60px;
 
   /* Colors */
   --color-white: #fff;
   --color-lightcyan: #d6f0f0;
-  --color-goldenrod-100: #ffba49;
+  --color-goldenrod-100: #ffba4a;
+  --color-goldenrod-200: #ffba49;
   --color-darkgray: #ababab;
+  --color-seagreen: #22814d;
   --color-black: #000;
   --color-steelblue: #086390;
   --color-whitesmoke: #f5fbfb;
-  --color-seagreen: #22814d;
+  --color-gray: #fffdfd;
+  --color-gainsboro: #e8e8e8;
+  --color-snow-100: #fffcfc;
+  --color-snow-200: #fefbfb;
   --color-dimgray: #606060;
 
+  /* Paddings */
+  --padding-sm: 10px;
+  --padding-md: 11px;
+  --padding-lg: 265px;
+
   /* border radiuses */
-  --br-sm: 5px;
-  --br-md: 10px;
+  --br-sm: 4px;
+  --br-md: 5px;
+  --br-lg: 10px;
 }
