@@ -1,5 +1,5 @@
 import "./story-section.css";
-
+import React from 'react';
 const StorySection = () => {
   return (
     <div className="frame-parent5">

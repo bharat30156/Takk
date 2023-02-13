@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import HomePageOfTakk from "./pages/home-page-of-takk";
 import { useEffect } from "react";
+import React from 'react';
 
 function App() {
   const action = useNavigationType();

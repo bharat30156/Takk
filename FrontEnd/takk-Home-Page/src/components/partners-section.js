@@ -1,5 +1,5 @@
 import "./partners-section.css";
-
+import React from 'react';
 const PartnersSection = () => {
   return (
     <div className="frame-parent2">

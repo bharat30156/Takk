@@ -145,16 +145,16 @@
   width: 164px;
   height: 36px;
 }
-.frame-parent1 {
+.frame-parent {
   position: absolute;
   top: 322px;
-  left: 47px;
+  left: calc(50% - 817px);
   border-radius: var(--br-lg);
   background-color: var(--color-white);
   border: 1px solid var(--color-darkgray);
   box-sizing: border-box;
   width: 1634px;
-  height: 651px;
+  height: 673px;
   overflow: hidden;
 }
 .explore-communities {
@@ -168,7 +168,7 @@
 }
 .explore-communities-wrapper {
   position: absolute;
-  top: 102px;
+  top: 100px;
   left: 0;
   border-radius: 0 var(--br-lg) var(--br-lg) 0;
   background-color: var(--color-goldenrod-200);
@@ -190,4 +190,52 @@
   font-size: var(--font-size-base);
   color: var(--color-black);
   font-family: var(--font-inter);
+}
+
+
+@media (min-width:2480px) {
+
+
+  .frame-container {
+    position: absolute;
+    top: 3044px;
+    left: 0;
+    background-color: var(--color-whitesmoke);
+    width: 100%;
+    height: 1063px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  
+
+
+  .frame-parent {
+    position: absolute;
+    top:500px;
+    left: 50%;
+    border-radius: var(--br-lg);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-darkgray);
+    box-sizing: border-box;
+    width: 1634px;
+    height: 673px;
+    overflow: hidden;
+  }
+
+  .explore-communities-wrapper {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    border-radius: 0 var(--br-lg) var(--br-lg) 0;
+    background-color: var(--color-goldenrod-200);
+    width: 60%;
+    height: 118px;
+    overflow: hidden;
+    font-size: var(--font-size-6xl);
+    color: var(--color-white);
+  }
+
 }

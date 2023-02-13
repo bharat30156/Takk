@@ -1,5 +1,5 @@
 import "./alert-bar.css";
-
+import React from 'react';
 const AlertBar = () => {
   return (
     <div className="alert-message-parent">

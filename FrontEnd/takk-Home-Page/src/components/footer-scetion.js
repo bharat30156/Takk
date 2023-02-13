@@ -1,5 +1,5 @@
 import "./footer-scetion.css";
-
+import React from 'react';
 const FooterScetion = () => {
   return (
     <div className="copyright-and-information-abou-wrapper">

@@ -169,8 +169,4 @@
   color: var(--color-black);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 1200px) {
-  .home-page-of-takk {
-    width: 1750px;
-  }
-}
+

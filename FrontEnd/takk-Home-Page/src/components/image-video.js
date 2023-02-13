@@ -1,5 +1,5 @@
 import "./image-video.css";
-
+import React from 'react';
 const ImageVideo = () => {
   return (
     <section className="frame-group" id="video">

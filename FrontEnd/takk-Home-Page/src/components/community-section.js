@@ -1,15 +1,18 @@
 import "./community-section.css";
+import React from 'react';
 
 const CommunitySection = () => {
   return (
     <div className="frame-container">
-      <div className="frame-parent1">
+      <div className="frame-parent">
         <div className="image-7-parent1">
           <img className="image-7-icon3" alt="" src="../image-73@2x.png" />
           <div className="overview-of-the-community-for-parent">
             <div className="overview-of-the3">
               Overview of the Community for the users to get an idea
             </div>
+            <img className="frame-child" alt="" />
+              <div className="name-of-person">Name of Person</div>
             <button className="rectangle-wrapper1">
               <div className="rectangle-div" />
             </button>
@@ -23,6 +26,8 @@ const CommunitySection = () => {
             <div className="overview-of-the3">
               Overview of the Community for the users to get an idea
             </div>
+            <img className="frame-child" alt="" />
+              <div className="name-of-person">Name of Person</div>
             <button className="rectangle-wrapper1">
               <div className="rectangle-div" />
             </button>
@@ -36,6 +41,8 @@ const CommunitySection = () => {
             <div className="overview-of-the3">
               Overview of the Community for the users to get an idea
             </div>
+            <img className="frame-child" alt="" />
+              <div className="name-of-person">Name of Person</div>
             <button className="rectangle-wrapper1">
               <div className="rectangle-div" />
             </button>
