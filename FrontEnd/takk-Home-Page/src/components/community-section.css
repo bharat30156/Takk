@@ -1,9 +1,8 @@
 .image-7-icon3 {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   width: 407px;
   height: 252px;
+  flex-shrink: 0;
   object-fit: cover;
 }
 .overview-of-the3 {
