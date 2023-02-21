@@ -21,11 +21,11 @@ const StorySection = () => {
           possimus vel asperiores
         </div>
         <button className="donate-wrapper">
-          <div className="donate2">Donate</div>
+          <div className="donate2">Start funrising</div>
         </button>
       </div>
       <div className="story-of-the-day-wrapper">
-        <div className="story-of-the">Story of the Day</div>
+        <div className="story-of-the">Most donated Initiative of Last Month</div>
       </div>
     </div>
   );

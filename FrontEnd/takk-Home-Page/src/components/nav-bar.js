@@ -11,16 +11,13 @@ const NavBar = () => {
       <div className="frame-wrapper">
         <div className="frame-div" />
       </div>
-      <button className="group-button">
-        <button className="rectangle-button" />
-      </button>
-      <button className="sign-up">SIGN UP</button>
+      <img className="sign-up" alt="" src="../ellipse-6.svg" />
       <div className="get-fundraise-parent">
         <button className="get-fundraise">Get Fundraise</button>
         <button className="donate">Donate</button>
         <button className="community">Community</button>
       </div>
-      <button className="login">LOGIN</button>
+      <div className="login">Name of User</div>
       <input className="frame-input" type="text" placeholder="Search" />
       <div className="image-6-wrapper">
         <img className="image-6-icon" alt="" src="../image-6@2x.png" />

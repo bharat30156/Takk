@@ -63,10 +63,10 @@
   top: 28px;
   left: 1497px;
   font-size: var(--font-size-xl);
-  color: var(--color-snow-100);
+ 
   text-align: center;
-  width: 123px;
-  height: 30px;
+  width: 100px;
+  height: 70px;
 }
 .community,
 .donate,
@@ -108,13 +108,13 @@
   border: 0;
   padding: 0;
   background-color: transparent;
-  top: 32px;
-  left: 1371px;
+  top: 50px;
+  left: 1300px;
   font-weight: 600;
-  color: var(--color-seagreen);
+  color: var(--color-dimgray);
   text-align: center;
   display: inline-block;
-  width: 78px;
+  width: 200px;
   height: 30px;
 }
 .frame-input {
@@ -184,19 +184,6 @@
     overflow: hidden;
   }
 
-  .rectangle-button {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: var(--color-seagreen);
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-md);
-  width: 183px;
-  height: 49px;
-}
-
 .group-button {
   top: 19px;
   left: 70%;
@@ -211,8 +198,8 @@
   font-size: var(--font-size-xl);
   color: var(--color-snow-100);
   text-align: center;
-  width: 123px;
-  height: 30px;
+  width: 200px;
+  height: 200px;
 }
 
 .login {

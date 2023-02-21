@@ -5,56 +5,54 @@ const CommunitySection = () => {
   return (
     <div className="frame-container">
       <div className="frame-parent">
-        <div className="image-7-parent1">
-          <img className="image-7-icon3" alt="" src="../image-73@2x.png" />
-          <div className="overview-of-the-community-for-parent">
-            <div className="overview-of-the3">
-              Overview of the Community for the users to get an idea
+      <div className="image-7-parent4">
+          <img className="image-7-icon6" alt="" src="../image-76@2x.png" />
+          <div className="overview-of-the-initiative-for-parent1">
+            <div className="overview-of-the6">
+              Overview of the Initiative for the users to get an idea
             </div>
-            <img className="frame-child" alt="" />
-              <div className="name-of-person">Name of Person</div>
-            <button className="rectangle-wrapper1">
-              <div className="rectangle-div" />
+            <img className="ellipse-icon" alt="" src="../ellipse-6.svg" />
+            <div className="name-of-person3">Name of Person</div>
+            <button className="rectangle-wrapper4">
+              <div className="group-child3" />
             </button>
-            <button className="find-out-more3">Find out more</button>
-            <b className="title-of-the3">Title of the Community</b>
+            <button className="find-out-more6">Find out more</button>
+            <b className="title-of-the6">Title of the Initiative</b>
           </div>
         </div>
-        <div className="image-7-parent2">
-          <img className="image-7-icon3" alt="" src="../image-74@2x.png" />
-          <div className="overview-of-the-community-for-group">
-            <div className="overview-of-the3">
-              Overview of the Community for the users to get an idea
+        <div className="image-7-parent5">
+          <img className="image-7-icon7" alt="" src="../image-77@2x.png" />
+          <div className="overview-of-the-initiative-for-parent2">
+            <div className="overview-of-the6">
+              Overview of the Initiative for the users to get an idea
             </div>
-            <img className="frame-child" alt="" />
-              <div className="name-of-person">Name of Person</div>
-            <button className="rectangle-wrapper1">
-              <div className="rectangle-div" />
+            <img className="ellipse-icon" alt="" src="../ellipse-6.svg" />
+            <div className="name-of-person3">Name of Person</div>
+            <button className="rectangle-wrapper4">
+              <div className="group-child3" />
             </button>
-            <button className="find-out-more3">Find out more</button>
-            <b className="title-of-the4">Title of the Community</b>
+            <button className="find-out-more6">Find out more</button>
+            <b className="title-of-the6">Title of the Initiative</b>
           </div>
         </div>
-        <div className="image-7-parent3">
-          <img className="image-7-icon3" alt="" src="../image-75@2x.png" />
-          <div className="overview-of-the-community-for-parent">
-            <div className="overview-of-the3">
-              Overview of the Community for the users to get an idea
+        <div className="image-7-parent6">
+          <img className="image-7-icon7" alt="" src="../image-78@2x.png" />
+          <div className="overview-of-the-initiative-for-parent3">
+            <div className="overview-of-the6">
+              Overview of the Initiative for the users to get an idea
             </div>
-            <img className="frame-child" alt="" />
-              <div className="name-of-person">Name of Person</div>
-            <button className="rectangle-wrapper1">
-              <div className="rectangle-div" />
+            <img className="ellipse-icon" alt="" src="../ellipse-62.svg" />
+            <div className="name-of-person3">Name of Person</div>
+            <button className="rectangle-wrapper4">
+              <div className="group-child3" />
             </button>
-            <button className="find-out-more3">Find out more</button>
-            <b className="title-of-the5">Title of the Community</b>
+            <button className="find-out-more6">Find out more</button>
+            <b className="title-of-the6">Title of the Initiative</b>
           </div>
         </div>
-        <button className="see-more1">See More</button>
+        <button className="see-more1">Load more</button>
       </div>
-      <div className="explore-communities-wrapper">
-        <div className="explore-communities">Explore Communities</div>
-      </div>
+     
     </div>
   );
 };

@@ -4,7 +4,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import HomePageOfTakk from "./pages/home-page-of-takk";
+
+import ListInitiativePage from "./pages/list-initiative-page";
 import { useEffect } from "react";
 import React from 'react';
 
@@ -46,7 +47,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<HomePageOfTakk />} />
+      <Route path="/" element={<ListInitiativePage />} />
     </Routes>
   );
 }
