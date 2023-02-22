@@ -1,0 +1,155 @@
+.seeAllTags,
+.tags {
+  position: absolute;
+  top: 5px;
+  left: 11px;
+  font-size: var(--font-size-3xl);
+  display: inline-block;
+  color: var(--color-gray-100);
+  width: 80px;
+  height: 38px;
+}
+.seeAllTags {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 211px;
+  left: 351px;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-dimgray-100);
+  text-align: justify;
+  width: 127px;
+  height: 20px;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-steelblue);
+  width: 164px;
+  height: 49px;
+}
+.medical1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.blankLine {
+  margin: 0;
+}
+.medical {
+  position: absolute;
+  top: 9px;
+  left: 36px;
+  font-weight: 600;
+  display: inline-block;
+  width: 92.11px;
+  height: 30px;
+}
+.groupItem,
+.rectangleParent {
+  position: absolute;
+  height: 49px;
+}
+.rectangleParent {
+  top: 61px;
+  left: 11px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 164px;
+}
+.groupItem {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-steelblue);
+  width: 190px;
+}
+.education {
+  position: absolute;
+  top: 9px;
+  left: 34px;
+  font-weight: 600;
+  display: inline-block;
+  width: 121px;
+  height: 30px;
+}
+.groupInner,
+.rectangleGroup {
+  position: absolute;
+  height: 49px;
+}
+.rectangleGroup {
+  top: 61px;
+  left: 211px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 190px;
+}
+.groupInner {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-steelblue);
+  width: 160px;
+}
+.sports {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  font-weight: 600;
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 128px;
+  left: 11px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 160px;
+  height: 49px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-steelblue);
+  width: 247px;
+  height: 49px;
+}
+.animalAndPets {
+  position: absolute;
+  top: 10px;
+  left: 14.66px;
+  font-weight: 600;
+  display: inline-block;
+  width: 218.8px;
+  height: 30px;
+}
+.groupDiv {
+  position: absolute;
+  top: 129px;
+  left: 201px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 247px;
+  height: 49px;
+}
+.tagsParent {
+  position: absolute;
+  top: 690px;
+  left: 1213px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-whitesmoke);
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 480px;
+  height: 245px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-snow-100);
+  font-family: var(--font-inter);
+}
