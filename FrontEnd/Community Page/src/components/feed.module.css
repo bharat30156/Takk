@@ -862,3 +862,10 @@
   color: var(--color-dimgray);
   font-family: var(--font-inter);
 }
+
+.uploadPicture{
+  position: absolute;
+  top: 850px;
+  left: 68px;
+
+  }

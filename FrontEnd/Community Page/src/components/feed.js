@@ -1,16 +1,90 @@
 import styles from "./feed.module.css";
+import React, { useState } from 'react';
+
 
 const Feed = () => {
+
+  const [formData, setFormData] = useState({
+    name: "",
+    description: "",
+    picture: null
+  });
+
+  const [communityInfo, setCommunityInfo] = useState([]);
+
+  const handleInputChange = event => {
+    const target = event.target;
+    const name = target.name;
+    const value = target.value;
+
+    setFormData(formData => ({
+      ...formData,
+      [name]: value
+    }));
+  };
+
+  const handleFileChange = event => {
+    const target = event.target;
+    const file = target.files[0];
+
+    setFormData(formData => ({
+      ...formData,
+      picture: file
+    }));
+  };
+
+  const handleSubmit = event => {
+    event.preventDefault();
+
+    // Add the form data to the community info array
+    setCommunityInfo([...communityInfo, formData]);
+
+    // Reset the form data
+    setFormData({
+      name: "",
+      description: "",
+      picture: null,
+    });
+  };
+
+
+  const handleSaveClick = () => {
+    // Save the data here
+    console.log("Data saved:", communityInfo);
+  };
+
+
   return (
     <div className={styles.theNameOfYourCommunityParent}>
-      <b className={styles.theNameOf}>The name of your community*:</b>
-      <textarea className={styles.frameChild} />
+        <b className={styles.theNameOf}>The name of your community*:</b>
+      <textarea
+        className={styles.frameChild}
+        name="name"
+        value={formData.name}
+        onChange={handleInputChange}
+      />
       <b className={styles.aDescriptionOf}>A description of your community*:</b>
-      <textarea className={styles.frameItem} />
+      <textarea
+        className={styles.frameItem}
+        name="description"
+        value={formData.description}
+        onChange={handleInputChange}
+      />
+        <b className={styles.yourCommunityPictures}>Your community pictures*:</b>
+        <form  className={styles.uploadPicture} onSubmit={handleSubmit}>
+          <input
+            type="file"
+            id="myFile"
+            name="picture"
+            onChange={handleFileChange}
+          />
+          <button type="submit">Submit</button>
+        </form>
+      
       <b className={styles.theLocationOf}>
         The location of you community (if any):
       </b>
-      <b className={styles.yourCommunityPictures}>Your community pictures*:</b>
+      
       <div className={styles.frameInner} />
       <div className={styles.frameInner} />
       <div className={styles.chooseCountry}>Choose country...</div>
@@ -36,8 +110,8 @@ const Feed = () => {
       <img className={styles.lineIcon} alt="" src="../line-40.svg" />
       <div className={styles.rectangleParent}>
         <button className={styles.groupChild} />
-        <button className={styles.save}>Save</button>
-        <button className={styles.cancel}>Cancel</button>
+        <button className={styles.save}  onClick={handleSaveClick}>Save</button>
+        <button className={styles.cancel} >Cancel</button>
       </div>
       <div className={styles.frameChild8} />
       <div className={styles.frameChild9} />
