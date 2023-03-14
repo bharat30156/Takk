@@ -1,6 +1,5 @@
 import "./initiative-section.css";
 import React from 'react';
-
 const InitiativeSection = () => {
   return (
     <div className="frame-parent3">

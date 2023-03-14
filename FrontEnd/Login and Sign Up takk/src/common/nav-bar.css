@@ -25,7 +25,7 @@
   cursor: pointer;
   border: 0;
   padding: 0;
-  background-color: 	#2E8B57;
+  background-color: var(--color-seagreen);
   position: absolute;
   top: 0;
   left: 0;
@@ -36,8 +36,8 @@
 .community,
 .donate,
 .get-fundraise,
-.group-button
- {
+.group-button,
+.sign-up {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -53,23 +53,19 @@
 }
 .community,
 .donate,
-.get-fundraise
- {
+.get-fundraise,
+.sign-up {
   font-weight: 600;
   font-family: var(--font-inter);
   display: inline-block;
 }
-.sign-up1 {
-  border: 0;
-  padding: 0;
-  background-color: transparent;
+.sign-up {
   top: 28px;
   left: 1497px;
-  font-weight: 600;
-  color: 	#2E8B57;
+  font-size: var(--font-size-xl);
+  color: var(--color-snow-100);
   text-align: center;
-  display: inline-block;
-  width: 78px;
+  width: 123px;
   height: 30px;
 }
 .community,
@@ -77,7 +73,7 @@
 .get-fundraise {
   top: 22px;
   font-size: var(--font-size-4xl);
-  color: #696969;
+  color: var(--color-dimgray);
   text-align: left;
   height: 51px;
 }
@@ -102,8 +98,7 @@
   overflow: hidden;
 }
 .frame-input,
-.login,
-.sign-up1 {
+.login {
   font-family: var(--font-inter);
   font-size: var(--font-size-xl);
   position: absolute;
@@ -116,15 +111,15 @@
   top: 32px;
   left: 1371px;
   font-weight: 600;
-  color: 	#2E8B57;
+  color: var(--color-seagreen);
   text-align: center;
   display: inline-block;
   width: 78px;
   height: 30px;
 }
 .frame-input {
-  border: 1px solid #A9A9A9;
-  background-color: #FFFFFF;
+  border: 1px solid var(--color-darkgray);
+  background-color: var(--color-white);
   top: 81px;
   left: 579px;
   border-radius: var(--br-lg);
@@ -139,9 +134,8 @@
 }
 .image-6-icon {
   position: relative;
-  left:600px;
   width: 39px;
-  height: 39px;
+  height: 38px;
   flex-shrink: 0;
   object-fit: cover;
 }
@@ -161,54 +155,8 @@
   position: absolute;
   top: 64px;
   left: 0;
-  background-color: #FFFFFF;
+  background-color: var(--color-white);
   width: 1728px;
   height: 197px;
   overflow: hidden;
 }
-
-
-
-@media only screen and (max-width: 1024px) {
-  .takk-logo-yellow-2 {
-  width: 100%;
-  height: auto;
-  }
-  .takk-logo-yellow-2-parent {
-  height: auto;
-  }
-  .frame-div,
-  .frame-wrapper {
-  width: 100%;
-  left: 0;
-  }
-  .group-button {
-  left: 50%;
-  transform: translateX(-50%);
-  }
-  .get-fundraise {
-  left: 50%;
-  transform: translateX(-50%);
-  }
-  .donate {
-  display: none;
-  }
-  .community {
-  display: none;
-  }
-  }
-  
-  @media only screen and (max-width: 768px) {
-  .frame-input {
-  width: 100%;
-  }
-  .frame-input input {
-  width: 100%;
-  }
-  .frame-input button {
-  display: none;
-  }
-  }
-  
-  
-  

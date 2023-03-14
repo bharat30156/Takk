@@ -49,7 +49,10 @@ class AppHeader extends Component {
                                             <NavLink to="/login"><button className="login">LOGIN</button></NavLink>        
                                         </li>
                                         <li>
-                                            <NavLink to="/signup"><button className="sign-up1">SIGN UP</button></NavLink>        
+                                        <button className="group-button">
+                                                <button className="rectangle-button" />
+                                        </button>
+                                            <NavLink to="/signup"><button className="sign-up">SIGN UP</button></NavLink>        
                                         </li>
                                     </ul>
                                 )}
