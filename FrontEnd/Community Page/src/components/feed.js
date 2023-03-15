@@ -1,16 +1,15 @@
 import styles from "./feed.module.css";
 import React, { useState } from 'react';
-
+import { DataContext } from "../context/DataContext";
+import { useContext } from "react";
 
 const Feed = () => {
-
+  const {setCommunityInfo} = useContext(DataContext)
   const [formData, setFormData] = useState({
     name: "",
     description: "",
     picture: null
   });
-
-  const [communityInfo, setCommunityInfo] = useState([]);
 
   const handleInputChange = event => {
     const target = event.target;

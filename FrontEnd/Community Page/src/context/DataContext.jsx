@@ -1,12 +1,14 @@
 import React from 'react'
 import { createContext, useState } from 'react'
 
-const DataContext = createContext();
+export const DataContext = createContext();
+
+
 
 function DataProvider({children}) {
-    const [data, setData] = useState()
+    const [communityInfo, setCommunityInfo] = useState()
   return (
-    <DataContext.Provider value={{data, setData}}>
+    <DataContext.Provider value={{communityInfo, setCommunityInfo}}>
         {children}
     </DataContext.Provider>
   )
