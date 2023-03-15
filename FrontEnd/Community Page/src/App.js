@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import MacBookPro161 from "./pages/mac-book-pro161";
 import { useEffect } from "react";
-
+import ListCommunityPage from "./pages/ListCommunityPage";
 function App() {
   const action = useNavigationType();
   const location = useLocation();
@@ -46,6 +46,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<MacBookPro161 />} />
+      <Route path="/CommunityList" element={<ListCommunityPage />} />
     </Routes>
   );
 }
