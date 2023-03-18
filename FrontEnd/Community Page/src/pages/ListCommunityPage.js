@@ -5,8 +5,21 @@ import React, { useContext } from 'react';
 
 
 const ListCommunityPage = () => {
-  const { communityInfo } = useContext(DataContext)
-  console.log(51111, communityInfo)
+  const communities = fetch("http://localhost:8080/api/communityUser", {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  })
+    .then((res) => {
+      if (res.ok) {
+        return res.json()
+      } else {
+        window.alert("Could not get communities");
+        console.log("Error");
+      }
+    })
+    .catch((error) => console.error("Error:", error));
 
   return (
     <div className={styles.listCommunityPage}>

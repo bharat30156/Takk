@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin("http://localhost:3000")
 @RequestMapping("/api/communityUser")
 public class CommunityUserController {
 
@@ -20,7 +21,6 @@ public class CommunityUserController {
     }
 
     //building create communityUser Rest API
-    @CrossOrigin("http://localhost:3000")
     @PostMapping("/create")
     public ResponseEntity<CommunityUser> saveCommunityUser( @RequestBody CommunityUser communityUser){
         return new ResponseEntity<CommunityUser>(communityUserService.saveCommunityUser(communityUser), HttpStatus.CREATED);
