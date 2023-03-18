@@ -7,6 +7,8 @@ import {
 import MacBookPro161 from "./pages/mac-book-pro161";
 import { useEffect } from "react";
 import ListCommunityPage from "./pages/ListCommunityPage";
+import DataProvider from "./context/DataContext";
+
 function App() {
   const action = useNavigationType();
   const location = useLocation();
@@ -44,10 +46,12 @@ function App() {
   }, [pathname]);
 
   return (
-    <Routes>
-      <Route path="/" element={<MacBookPro161 />} />
-      <Route path="/CommunityList" element={<ListCommunityPage />} />
-    </Routes>
+    <DataProvider>
+      <Routes>
+        <Route path="/" element={<MacBookPro161 />} />
+        <Route path="/CommunityList" element={<ListCommunityPage />} />
+      </Routes>
+    </DataProvider>
   );
 }
 export default App;

@@ -3,6 +3,7 @@ import Feed from "../components/feed";
 import Footer from "../components/footer";
 import styles from "./mac-book-pro161.module.css";
 
+
 const MacBookPro161 = () => {
   return (
     <div className={styles.macbookPro161}>

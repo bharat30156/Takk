@@ -1,10 +1,9 @@
 import styles from "./feed.module.css";
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { DataContext } from "../context/DataContext";
-import { useContext } from "react";
 
 const Feed = () => {
-  const {setCommunityInfo} = useContext(DataContext)
+  const { communityInfo, setCommunityInfo } = useContext(DataContext)
   const [formData, setFormData] = useState({
     name: "",
     description: "",
@@ -20,6 +19,7 @@ const Feed = () => {
       ...formData,
       [name]: value
     }));
+    console.log(2111, formData)
   };
 
   const handleFileChange = event => {
@@ -34,10 +34,9 @@ const Feed = () => {
 
   const handleSubmit = event => {
     event.preventDefault();
-
+    console.log(1111, formData);
     // Add the form data to the community info array
-    setCommunityInfo([...communityInfo, formData]);
-
+    setCommunityInfo((communityInfo) => communityInfo ? [...communityInfo, formData] : [formData])
     // Reset the form data
     setFormData({
       name: "",
@@ -46,6 +45,9 @@ const Feed = () => {
     });
   };
 
+  const handlePictureUpload = () => {
+    // need to code functionality for uploading image
+  }
 
   const handleSaveClick = () => {
     // Save the data here
@@ -54,7 +56,7 @@ const Feed = () => {
 
 
   return (
-    <div className={styles.theNameOfYourCommunityParent}>
+    <form className={styles.theNameOfYourCommunityParent} onSubmit={handleSubmit}>
         <b className={styles.theNameOf}>The name of your community*:</b>
       <textarea
         className={styles.frameChild}
@@ -70,7 +72,7 @@ const Feed = () => {
         onChange={handleInputChange}
       />
         <b className={styles.yourCommunityPictures}>Your community pictures*:</b>
-        <form  className={styles.uploadPicture} onSubmit={handleSubmit}>
+        <form  className={styles.uploadPicture} onSubmit={handlePictureUpload}>
           <input
             type="file"
             id="myFile"
@@ -107,11 +109,7 @@ const Feed = () => {
       <div className={styles.frameChild6} />
       <div className={styles.frameChild7} />
       <img className={styles.lineIcon} alt="" src="../line-40.svg" />
-      <div className={styles.rectangleParent}>
-        <button className={styles.groupChild} />
-        <button className={styles.save}  onClick={handleSaveClick}>Save</button>
-        <button className={styles.cancel} >Cancel</button>
-      </div>
+
       <div className={styles.frameChild8} />
       <div className={styles.frameChild9} />
       <div className={styles.frameChild10} />
@@ -191,7 +189,12 @@ const Feed = () => {
       <div className={styles.debbieJohnson}>Debbie Johnson</div>
       <div className={styles.asonJudd}>Ason Judd</div>
       <div className={styles.winifredTimber}>Winifred Timber</div>
-    </div>
+      <div className={styles.rectangleParent}>
+        <button className={styles.groupChild} />
+        <button type="submit" value="Submit" className={styles.save} >Save</button>
+        <button className={styles.cancel} >Cancel</button>
+      </div>
+    </form>
   );
 };
 

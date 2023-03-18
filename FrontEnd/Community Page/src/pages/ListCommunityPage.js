@@ -1,6 +1,13 @@
 import styles from "./ListCommunityPage.module.css";
+import { DataContext } from "../context/DataContext";
+import React, { useContext } from 'react';
+
+
 
 const ListCommunityPage = () => {
+  const { communityInfo } = useContext(DataContext)
+  console.log(51111, communityInfo)
+
   return (
     <div className={styles.listCommunityPage}>
       <div className={styles.alertMessageParent}>
