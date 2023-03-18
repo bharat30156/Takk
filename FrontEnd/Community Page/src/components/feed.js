@@ -7,17 +7,17 @@ const Feed = () => {
   const [formData, setFormData] = useState({
     name: "",
     description: "",
-    picture: null
+    images: null
   });
 
   const handleInputChange = event => {
     const target = event.target;
-    const name = target.name;
+    const nameOfCommunity = target.name;
     const value = target.value;
 
     setFormData(formData => ({
       ...formData,
-      [name]: value
+      [nameOfCommunity]: value
     }));
     console.log(2111, formData)
   };
@@ -28,7 +28,7 @@ const Feed = () => {
 
     setFormData(formData => ({
       ...formData,
-      picture: file
+      images: file
     }));
   };
 
@@ -38,14 +38,34 @@ const Feed = () => {
     // Add the form data to the community info array
     setCommunityInfo((communityInfo) => communityInfo ? [...communityInfo, formData] : [formData])
     // Reset the form data
+    fetch("http://localhost:8080/api/communityUser/create", {
+      method: "POST",
+      body: JSON.stringify(formData),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => {
+        if (res.ok) {
+          // if HTTP-status is 200-299
+          // get the response body (the method explained below)
+          //this.setState({ redirect: "/" });
+          window.alert("You've successfully created a community!");
+          console.log("Community created");
+        } else {
+          window.alert("Your inputs are wrong");
+          console.log("Error");
+        }
+      })
+      .catch((error) => console.error("Error:", error));
     setFormData({
-      name: "",
-      description: "",
-      picture: null,
+      nameOfCommunity: "",
+      descriptionOfCommunity: "",
+      images: null,
     });
   };
 
-  const handlePictureUpload = () => {
+  const handleImageUpload = () => {
     // need to code functionality for uploading image
   }
 
@@ -60,23 +80,23 @@ const Feed = () => {
         <b className={styles.theNameOf}>The name of your community*:</b>
       <textarea
         className={styles.frameChild}
-        name="name"
-        value={formData.name}
+        name="nameOfCommunity"
+        value={formData.nameOfCommunity}
         onChange={handleInputChange}
       />
       <b className={styles.aDescriptionOf}>A description of your community*:</b>
       <textarea
         className={styles.frameItem}
-        name="description"
-        value={formData.description}
+        name="descriptionOfCommunity"
+        value={formData.descriptionOfCommunity}
         onChange={handleInputChange}
       />
         <b className={styles.yourCommunityPictures}>Your community pictures*:</b>
-        <form  className={styles.uploadPicture} onSubmit={handlePictureUpload}>
+        <form  className={styles.uploadPicture} onSubmit={handleImageUpload}>
           <input
             type="file"
             id="myFile"
-            name="picture"
+            name="images"
             onChange={handleFileChange}
           />
           <button type="submit">Submit</button>
