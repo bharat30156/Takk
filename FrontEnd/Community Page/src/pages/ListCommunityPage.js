@@ -20,6 +20,7 @@ const ListCommunityPage = () => {
       }
     })
     .catch((error) => console.error("Error:", error));
+    console.log(communities)
 
   return (
     <div className={styles.listCommunityPage}>
