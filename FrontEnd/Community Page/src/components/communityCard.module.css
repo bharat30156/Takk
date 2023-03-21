@@ -1,0 +1,137 @@
+.frameGroup > * {
+  margin-right: 150px;
+  margin-bottom: 100px;
+}
+
+.image7Parent {
+    top: 94px;
+    left: 66px;
+    height: 465px;
+  }
+  .image7Group,
+  .image7Parent,
+  .overviewOfTheCommunityForGroup {
+    position: relative; /* change absolute to relative */
+    border-radius: var(--br-xs);
+    width: 407px;
+    overflow: hidden;
+  }
+
+  .frameGroup,
+  .image7Parent5 {
+    margin: 10px;
+    position: absolute;
+    top: 1218px;
+    left: 1154px;
+    border-radius: var(--br-xs);
+    width: 407px;
+    height: 465px;
+    overflow: hidden;
+    margin: 10px; /* add 10px margin */
+  }
+
+  .frameGroup {
+    margin: 10px;
+    top: 82px;
+    left: 47px;
+    border-radius: var(--br-md);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-darkgray-100);
+    box-sizing: border-box;
+    width: 100%; /* change width to 100% */
+    height: auto; /* change height to auto */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .image7Icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 407px;
+    height: 252px;
+    object-fit: cover;
+  }
+
+  .overviewOfTheCommunityForParent {
+    position: absolute;
+    top: 252px;
+    left: 0;
+    border: 1px solid var(--color-darkgray-100);
+    box-sizing: border-box;
+    width: 407px;
+    height: 213px;
+    overflow: hidden;
+  }
+
+  .overviewOfThe {
+    position: absolute;
+    top: 57px;
+    left: 19px;
+    font-weight: 500;
+    display: inline-block;
+    width: 373px;
+    height: 38px;
+  }
+
+  .groupItem,
+.rectangleWrapper {
+  position: absolute;
+  width: 181px;
+  height: 38px;
+}
+
+.rectangleWrapper {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 160px;
+    left: 207px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .groupItem {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xs);
+    background-color: var(--color-seagreen);
+  }
+
+  .findOutMore,
+.titleOfThe {
+  position: absolute;
+  display: inline-block;
+}
+.findOutMore {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 167px;
+  left: 234px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  width: 133px;
+  height: 23px;
+}
+
+.findOutMore,
+.titleOfThe {
+  position: absolute;
+  display: inline-block;
+}
+
+.titleOfThe {
+    top: 11px;
+    left: 19px;
+    font-size: var(--font-size-xl);
+    width: 293px;
+    height: 30px;
+  }
+

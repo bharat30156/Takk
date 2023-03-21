@@ -1,26 +1,36 @@
 import styles from "./ListCommunityPage.module.css";
 import { DataContext } from "../context/DataContext";
-import React, { useContext } from 'react';
+import CommunityCard from '../components/communityCard';
+import React, { useState , useEffect} from 'react';
 
 
 
 const ListCommunityPage = () => {
-  const communities = fetch("http://localhost:8080/api/communityUser", {
-    method: "GET",
-    headers: {
-      "Content-Type": "application/json",
-    },
-  })
-    .then((res) => {
-      if (res.ok) {
-        return res.json()
-      } else {
-        window.alert("Could not get communities");
-        console.log("Error");
-      }
+
+  const [communities, setCommunities] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:8080/api/communityUser", {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
     })
-    .catch((error) => console.error("Error:", error));
-    console.log(communities)
+      .then((res) => {
+        if (res.ok) {
+          return res.json();
+        } else {
+          window.alert("Could not get communities");
+          console.log("Error");
+        }
+      })
+      .then((data) => {
+        setCommunities(data);
+      })
+      .catch((error) => console.error("Error:", error));
+      console.log(communities)
+  }, []);
+
 
   return (
     <div className={styles.listCommunityPage}>
@@ -53,153 +63,7 @@ const ListCommunityPage = () => {
         </div>
       </div>
       <div className={styles.frameParent}>
-        <div className={styles.frameGroup}>
-          <div className={styles.image7Parent}>
-            <img className={styles.image7Icon} alt="" src="../image-7@2x.png" />
-            <div className={styles.overviewOfTheCommunityForParent}>
-              <div className={styles.overviewOfThe}>
-                Overview of the Community for the users to get an idea
-              </div>
-              <button className={styles.rectangleWrapper}>
-                <div className={styles.groupItem} />
-              </button>
-              <button className={styles.findOutMore}>Find out more</button>
-              <b className={styles.titleOfThe}>Title of the Community</b>
-            </div>
-          </div>
-          <div className={styles.image7Group}>
-            <img
-              className={styles.image7Icon}
-              alt=""
-              src="../image-71@2x.png"
-            />
-            <div className={styles.overviewOfTheCommunityForGroup}>
-              <div className={styles.overviewOfThe}>
-                Overview of the Community for the users to get an idea
-              </div>
-              <button className={styles.rectangleWrapper}>
-                <div className={styles.groupItem} />
-              </button>
-              <button className={styles.findOutMore}>Find out more</button>
-              <b className={styles.titleOfThe}>Title of the Community</b>
-            </div>
-          </div>
-          <div className={styles.image7Container}>
-            <img
-              className={styles.image7Icon}
-              alt=""
-              src="../image-72@2x.png"
-            />
-            <div className={styles.overviewOfTheCommunityForParent}>
-              <div className={styles.overviewOfThe}>
-                Overview of the Community for the users to get an idea
-              </div>
-              <button className={styles.rectangleWrapper}>
-                <div className={styles.groupItem} />
-              </button>
-              <button className={styles.findOutMore}>Find out more</button>
-              <b className={styles.titleOfThe2}>Title of the Community</b>
-            </div>
-          </div>
-          <div className={styles.frameDiv}>
-            <img
-              className={styles.image7Icon}
-              alt=""
-              src="../image-76@2x.png"
-            />
-            <div className={styles.overviewOfTheCommunityForParent}>
-              <div className={styles.overviewOfThe}>
-                Overview of the Community for the users to get an idea
-              </div>
-              <button className={styles.rectangleWrapper}>
-                <div className={styles.groupItem} />
-              </button>
-              <button className={styles.findOutMore}>Find out more</button>
-              <b className={styles.titleOfThe3}>Title of the Community</b>
-            </div>
-          </div>
-          <div className={styles.image7Parent1}>
-            <img
-              className={styles.image7Icon}
-              alt=""
-              src="../image-77@2x.png"
-            />
-            <div className={styles.overviewOfTheCommunityForParent}>
-              <div className={styles.overviewOfThe}>
-                Overview of the Community for the users to get an idea
-              </div>
-              <button className={styles.rectangleWrapper}>
-                <div className={styles.groupItem} />
-              </button>
-              <button className={styles.findOutMore}>Find out more</button>
-              <b className={styles.titleOfThe4}>Title of the Community</b>
-            </div>
-          </div>
-          <div className={styles.image7Parent2}>
-            <img
-              className={styles.image7Icon}
-              alt=""
-              src="../image-78@2x.png"
-            />
-            <div className={styles.overviewOfTheCommunityForParent}>
-              <div className={styles.overviewOfThe}>
-                Overview of the Community for the users to get an idea
-              </div>
-              <button className={styles.rectangleWrapper}>
-                <div className={styles.groupItem} />
-              </button>
-              <button className={styles.findOutMore}>Find out more</button>
-              <b className={styles.titleOfThe}>Title of the Community</b>
-            </div>
-          </div>
-          <div className={styles.image7Parent3}>
-            <img
-              className={styles.image7Icon}
-              alt=""
-              src="../image-79@2x.png"
-            />
-            <div className={styles.overviewOfTheCommunityForGroup}>
-              <div className={styles.overviewOfThe}>
-                Overview of the Community for the users to get an idea
-              </div>
-              <button className={styles.rectangleWrapper}>
-                <div className={styles.groupItem} />
-              </button>
-              <button className={styles.findOutMore}>Find out more</button>
-              <b className={styles.titleOfThe6}>Title of the Community</b>
-            </div>
-          </div>
-          <div className={styles.image7Parent4}>
-            <img
-              className={styles.image7Icon}
-              alt=""
-              src="../image-710@2x.png"
-            />
-            <div className={styles.overviewOfTheCommunityForGroup}>
-              <div className={styles.overviewOfThe}>
-                Overview of the Community for the users to get an idea
-              </div>
-              <button className={styles.rectangleWrapper}>
-                <div className={styles.groupItem} />
-              </button>
-              <button className={styles.findOutMore}>Find out more</button>
-              <b className={styles.titleOfThe3}>Title of the Community</b>
-            </div>
-          </div>
-          <div className={styles.image7Parent5}>
-            <img className={styles.image7Icon} alt="" src="../image-7@2x.png" />
-            <div className={styles.overviewOfTheCommunityForGroup}>
-              <div className={styles.overviewOfThe}>
-                Overview of the Community for the users to get an idea
-              </div>
-              <button className={styles.rectangleWrapper}>
-                <div className={styles.groupItem} />
-              </button>
-              <button className={styles.findOutMore}>Find out more</button>
-              <b className={styles.titleOfThe8}>Title of the Community</b>
-            </div>
-          </div>
-        </div>
+      <CommunityCard communities={communities} />
         <button className={styles.loadMore}>Load more....</button>
         <div className={styles.sortByMyContainer}>
           <span className={styles.sortByMyContainer1}>
