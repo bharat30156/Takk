@@ -1,6 +1,7 @@
 import styles from "./feed.module.css";
 import React, { useState, useContext } from 'react';
 import { DataContext } from "../context/DataContext";
+import ViewCommunityPage from "../pages/ViewCommunityPage";
 
 const Feed = () => {
   const { communityInfo, setCommunityInfo } = useContext(DataContext)
@@ -76,7 +77,7 @@ const Feed = () => {
 
 
   return (
-    <form className={styles.theNameOfYourCommunityParent} onSubmit={handleSubmit}>
+    <form action="/CommunityPage" className={styles.theNameOfYourCommunityParent} onSubmit={handleSubmit}>
         <b className={styles.theNameOf}>The name of your community*:</b>
       <textarea
         className={styles.frameChild}

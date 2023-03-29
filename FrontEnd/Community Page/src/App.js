@@ -7,6 +7,7 @@ import {
 import MacBookPro161 from "./pages/mac-book-pro161";
 import { useEffect } from "react";
 import ListCommunityPage from "./pages/ListCommunityPage";
+import ViewCommunityPage from "./pages/ViewCommunityPage";
 import DataProvider from "./context/DataContext";
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MacBookPro161 />} />
         <Route path="/CommunityList" element={<ListCommunityPage />} />
+        <Route path="/CommunityPage" element={<ViewCommunityPage />} />
       </Routes>
     </DataProvider>
   );
