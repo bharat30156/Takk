@@ -4,6 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import HomePage from "./pages/home-page-of-takk"
 import MacBookPro161 from "./pages/mac-book-pro161";
 import { useEffect } from "react";
 import ListCommunityPage from "./pages/ListCommunityPage";
@@ -49,7 +50,8 @@ function App() {
   return (
     <DataProvider>
       <Routes>
-        <Route path="/" element={<MacBookPro161 />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/CreateEditCommunity" element={<MacBookPro161 />} />
         <Route path="/CommunityList" element={<ListCommunityPage />} />
         <Route path="/CommunityPage" element={<ViewCommunityPage />} />
       </Routes>

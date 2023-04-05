@@ -1,0 +1,208 @@
+.takk-logo-yellow-2 {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 434px;
+  height: 241px;
+  object-fit: cover;
+}
+.frame-div,
+.frame-wrapper {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 837px;
+  height: 96px;
+  overflow: hidden;
+}
+.frame-wrapper {
+  top: 10px;
+  left: 479px;
+  width: 100px;
+  height: 100px;
+}
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-seagreen);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  width: 183px;
+  height: 49px;
+}
+.community,
+.donate,
+.get-fundraise,
+.group-button,
+.sign-up {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.group-button {
+  top: 19px;
+  left: 1467px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 183px;
+  height: 49px;
+}
+.community,
+.donate,
+.get-fundraise,
+.sign-up {
+  font-weight: 600;
+  font-family: var(--font-inter);
+  display: inline-block;
+}
+.sign-up {
+  top: 28px;
+  left: 1497px;
+  font-size: var(--font-size-xl);
+  color: var(--color-snow-100);
+  text-align: center;
+  width: 123px;
+  height: 30px;
+}
+.community,
+.donate,
+.get-fundraise {
+  top: 22px;
+  font-size: var(--font-size-4xl);
+  color: var(--color-dimgray);
+  text-align: left;
+  height: 51px;
+}
+.get-fundraise {
+  left: 31px;
+  width: 266px;
+}
+.donate {
+  left: 357px;
+  width: 124px;
+}
+.community {
+  left: 541px;
+  width: 207px;
+}
+.get-fundraise-parent {
+  position: absolute;
+  top: 0;
+  left: 513px;
+  width: 748px;
+  height: 73px;
+  overflow: hidden;
+}
+.frame-input,
+.login {
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xl);
+  position: absolute;
+  cursor: pointer;
+}
+.login {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 32px;
+  left: 1371px;
+  font-weight: 600;
+  color: var(--color-seagreen);
+  text-align: center;
+  display: inline-block;
+  width: 78px;
+  height: 30px;
+}
+.frame-input {
+  border: 1px solid var(--color-darkgray);
+  background-color: var(--color-white);
+  top: 81px;
+  left: 579px;
+  border-radius: var(--br-lg);
+  box-sizing: border-box;
+  width: 612px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-lg);
+  align-items: center;
+  justify-content: center;
+}
+.image-6-icon {
+  position: relative;
+  width: 39px;
+  height: 38px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image-6-wrapper {
+  position: absolute;
+  top: 77px;
+  left: 590px;
+  width: 49px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-sm);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.takk-logo-yellow-2-parent {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1728px;
+  height: 197px;
+  overflow: hidden;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .takk-logo-yellow-2 {
+  width: 100%;
+  height: auto;
+  }
+  .takk-logo-yellow-2-parent {
+  height: auto;
+  }
+  .frame-div,
+  .frame-wrapper {
+  width: 100%;
+  left: 0;
+  }
+  .group-button {
+  left: 50%;
+  transform: translateX(-50%);
+  }
+  .get-fundraise {
+  left: 50%;
+  transform: translateX(-50%);
+  }
+  .donate {
+  display: none;
+  }
+  .community {
+  display: none;
+  }
+  }
+  
+  @media only screen and (max-width: 768px) {
+  .frame-input {
+  width: 100%;
+  }
+  .frame-input input {
+  width: 100%;
+  }
+  .frame-input button {
+  display: none;
+  }
+  }
+  
+  
+  

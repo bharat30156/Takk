@@ -1,4 +1,5 @@
 import styles from './communityCard.module.css';
+import { Link } from "react-router-dom";
 import React from 'react';
 
 const CommunityCard = ({ communities }) => {
@@ -17,7 +18,7 @@ const CommunityCard = ({ communities }) => {
                 <button className={styles.rectangleWrapper}>
                 <div className={styles.groupItem} />
                 </button>
-                <button className={styles.findOutMore}>Find out more</button>
+                <Link to ="/CommunityPage"> <button className={styles.findOutMore}>Find out more</button></Link>
                 <b className={styles.titleOfThe}>{community.nameOfCommunity}</b>
             </div>
             </div>

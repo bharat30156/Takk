@@ -1,0 +1,52 @@
+.alert-message-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-goldenrod-200);
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.alert-message {
+  margin: 0 auto;
+}
+
+.image-42-wrapper {
+  background-color: transparent;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.image-42-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Media queries for responsive layout */
+@media (max-width: 768px) {
+  .alert-message-parent {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 8px;
+  }
+  
+  .alert-message {
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  
+  .image-42-wrapper {
+    margin-top: 8px;
+    margin-left: 0;
+  }
+  
+  .image-42-icon {
+    width: 16px;
+    height: 16px;
+  }
+}

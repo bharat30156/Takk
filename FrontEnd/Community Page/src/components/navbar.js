@@ -1,8 +1,10 @@
 import styles from "./navbar.module.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className={styles.communityPageEditAndCre}>
+      
       <img
         className={styles.takkLogoYellow2}
         alt=""
@@ -24,7 +26,7 @@ const Navbar = () => {
       <div className={styles.getFundraisingParent}>
         <a className={styles.getFundraising}>Get Fundraising</a>
         <a className={styles.donate}>Donate</a>
-        <a className={styles.community}>Community</a>
+        <Link to="/CommunityList"><a className={styles.community}>Community</a></Link>
       </div>
       <input
         className={styles.communityPageEditAndCreItem}
