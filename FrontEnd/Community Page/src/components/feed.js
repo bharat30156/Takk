@@ -2,9 +2,15 @@ import styles from "./feed.module.css";
 import React, { useState, useContext } from 'react';
 import { DataContext } from "../context/DataContext";
 import ViewCommunityPage from "../pages/ViewCommunityPage";
+import FeedCommunity from '../components/FeedCommunity';
 
 const Feed = () => {
   const { communityInfo, setCommunityInfo } = useContext(DataContext)
+  const [communityData, setCommunityData] = useState({
+    nameOfCommunity: "",
+    descriptionOfCommunity: "",
+  });
+  
   const [formData, setFormData] = useState({
     name: "",
     description: "",
@@ -35,6 +41,23 @@ const Feed = () => {
 
   const handleSubmit = event => {
     event.preventDefault();
+
+    event.preventDefault();
+
+  const nameOfCommunity = event.target.nameOfCommunity.value;
+  const descriptionOfCommunity = event.target.descriptionOfCommunity.value;
+
+  setCommunityData({ nameOfCommunity, descriptionOfCommunity });
+
+  // Add the form data to the community info array
+  setCommunityInfo((communityInfo) => communityInfo ? [...communityInfo, formData] : [formData]);
+  // Reset the form data
+  setFormData({
+    nameOfCommunity: "",
+    descriptionOfCommunity: "",
+    images: null,
+  });
+
     console.log(1111, formData);
     // Add the form data to the community info array
     setCommunityInfo((communityInfo) => communityInfo ? [...communityInfo, formData] : [formData])
@@ -70,36 +93,34 @@ const Feed = () => {
     // need to code functionality for uploading image
   }
 
-  const handleSaveClick = () => {
-    // Save the data here
-    console.log("Data saved:", communityInfo);
-  };
-
-
   return (
-    <form action="/CommunityPage" className={styles.theNameOfYourCommunityParent} onSubmit={handleSubmit}>
-        <b className={styles.theNameOf}>The name of your community*:</b>
+    <div>
+    {communityData.nameOfCommunity && communityData.descriptionOfCommunity ? (
+       <FeedCommunity key={communityData.nameOfCommunity} communities={communityData} />
+    ) : (
+      <form action="/CommunityPage" className={styles.theNameOfYourCommunityParent} onSubmit={handleSubmit}>
+    <b className={styles.theNameOf}>The name of your community*:</b>
       <textarea
         className={styles.frameChild}
         name="nameOfCommunity"
         value={formData.nameOfCommunity}
         onChange={handleInputChange}
       />
-      <b className={styles.aDescriptionOf}>A description of your community*:</b>
+ <b className={styles.aDescriptionOf}>A description of your community*:</b>
       <textarea
         className={styles.frameItem}
         name="descriptionOfCommunity"
         value={formData.descriptionOfCommunity}
         onChange={handleInputChange}
       />
-        <b className={styles.yourCommunityPictures}>Your community pictures*:</b>
-        <form  className={styles.uploadPicture} onSubmit={handleImageUpload}>
-          <input
-            type="file"
-            id="myFile"
-            name="images"
-            onChange={handleFileChange}
-          />
+      <b className={styles.yourCommunityPictures}>Your community pictures*:</b>
+      <form className={styles.uploadPicture} onSubmit={handleFileChange}>
+        <input
+          type="file"
+          id="myFile"
+          name="images"
+          onChange={handleFileChange}
+        />
           <button type="submit">Submit</button>
         </form>
       
@@ -216,6 +237,8 @@ const Feed = () => {
         <button className={styles.cancel} >Cancel</button>
       </div>
     </form>
+      )}
+     </div>
   );
 };
 

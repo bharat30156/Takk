@@ -7,32 +7,8 @@ import React, { useState , useEffect} from 'react';
 
 
 
-const Feed = () => {
-
-  const [communities, setCommunities] = useState([]);
-  useEffect(() => {
-    fetch("http://localhost:8080/api/communityUser", {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
-      .then((res) => {
-        if (res.ok) {
-          return res.json();
-        } else {
-          window.alert("Could not get communities");
-          console.log("Error");
-        }
-      })
-      .then((data) => {
-        setCommunities(data);
-      })
-      .catch((error) => console.error("Error:", error));
-      console.log(communities)
-  }, []);
-
-
+const FeedCommunity = ({ communities }) => {
+  console.log('Communities Prop:', communities);
 
   return (
     <div className={styles.image62Parent}>
@@ -45,7 +21,7 @@ const Feed = () => {
       <ImageSection />
       <div
         className={styles.descriptionAboutCommunity}
-      >{communities.descriptionOfCommunity}</div>
+      >{communities.descriptionOfCommunity || ''}</div>
       <button className={styles.frameParent}>
         <div className={styles.rectangleWrapper}>
           <div className={styles.frameInner} />
@@ -117,7 +93,7 @@ const Feed = () => {
       <Tags />
       <AssociatedInitiative />
       <div className={styles.titleOfTheCommunityWrapper}>
-        <div className={styles.titleOfThe}>{communities.nameOfCommunity}</div>
+      <div className={styles.titleOfThe}>{communities.nameOfCommunity || ''}</div>
       </div>
       <div className={styles.helloDescriptionAbout}>
         Hello, Description about
@@ -184,4 +160,4 @@ const Feed = () => {
   );
 };
 
-export default Feed;
+export default FeedCommunity;

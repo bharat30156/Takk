@@ -1,13 +1,20 @@
-import NavBar from "../components/NavBarCommunity";
-import Feed from "../components/FeedCommunity";
-import styles from "./ViewCommunityPage.module.css";
+import React from 'react';
+import NavBar from '../components/NavBarCommunity';
+import FeedCommunity from '../components/FeedCommunity';
+import styles from './ViewCommunityPage.module.css';
 
 const ViewCommunityPage = () => {
+
+  const communitiesData = {
+    nameOfCommunity: 'Example Community',
+    descriptionOfCommunity: 'Example community description',
+    // Add more properties as needed...
+  };
 
   return (
     <div className={styles.viewCommunityPage}>
       <NavBar />
-      <Feed />
+      <FeedCommunity communities={communitiesData} />
       <div className={styles.copyrightAndInformationAbouWrapper}>
         <div className={styles.copyrightAndInformation}>
           @copyright and information about the TAKK
