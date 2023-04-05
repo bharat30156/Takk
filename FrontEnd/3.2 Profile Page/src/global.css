@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Malgun+Gothic:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-malgun-gothic: "Malgun Gothic";
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-13xl: 32px;
+  --font-size-17xl: 36px;
+  --font-size-mini: 15px;
+  --font-size-xl: 20px;
+  --font-size-lg: 18px;
+  --font-size-29xl: 48px;
+  --font-size-11xl: 30px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkgray: #ababab;
+  --color-gray-100: #fffdfd;
+  --color-gray-200: #1f2421;
+  --color-gray-300: rgba(0, 0, 0, 0.56);
+  --color-steelblue: #086390;
+  --color-snow: #fffcfc;
+  --color-seagreen: #22814d;
+  --color-dimgray-100: #747272;
+  --color-dimgray-200: #606060;
+  --color-goldenrod: #ffba49;
+  --color-azure: #f4ffff;
+  --color-whitesmoke: #f5fbfb;
+  --color-lightcyan: #d6f0f0;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-31xl: 50px;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-8xs: 5px;
+  --br-mini: 15px;
+  --br-6xl: 25px;
+}
