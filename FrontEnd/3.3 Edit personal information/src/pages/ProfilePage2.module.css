@@ -1,0 +1,962 @@
+.takkLogoYellow2 {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 434px;
+  height: 241px;
+  object-fit: cover;
+}
+.frameChild,
+.frameWrapper {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 837px;
+  height: 96px;
+  overflow: hidden;
+}
+.frameWrapper {
+  top: 10px;
+  left: 479px;
+  width: 100px;
+  height: 100px;
+}
+.nameOfUser {
+  position: absolute;
+  top: 32px;
+  left: 1427px;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  width: 158px;
+  height: 30px;
+}
+.frameItem {
+  position: absolute;
+  top: 15px;
+  left: 1644px;
+  width: 53px;
+  height: 53px;
+  object-fit: cover;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+}
+.div,
+.ellipseParent {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+}
+.ellipseParent {
+  top: 47px;
+  left: 1677px;
+  width: 28px;
+  height: 28px;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-malgun-gothic);
+}
+.community,
+.donate,
+.getFundraising {
+  text-decoration: none;
+  position: absolute;
+  top: 22px;
+  left: 31px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  width: 266px;
+  height: 51px;
+  cursor: pointer;
+}
+.community,
+.donate {
+  left: 357px;
+  width: 124px;
+}
+.community {
+  left: 541px;
+  width: 207px;
+}
+.getFundraisingParent {
+  position: absolute;
+  top: 0;
+  left: 513px;
+  width: 792px;
+  height: 88px;
+  overflow: hidden;
+  font-size: var(--font-size-13xl);
+}
+.frameInner,
+.takkLogoYellow2Parent {
+  position: absolute;
+  font-size: var(--font-size-5xl);
+}
+.frameInner {
+  border: 1px solid var(--color-darkgray);
+  font-family: var(--font-inter);
+  background-color: transparent;
+  top: 73px;
+  left: 579px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 612px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-31xl);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.takkLogoYellow2Parent {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1728px;
+  height: 176px;
+  overflow: hidden;
+}
+.personalDetails,
+.profilePage2Child {
+  position: absolute;
+  top: 199px;
+  left: 0;
+  width: 1728px;
+  height: 3px;
+}
+.personalDetails {
+  top: 460px;
+  left: 624px;
+  display: inline-block;
+  width: 427px;
+  height: 40px;
+}
+.firstName {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.password {
+  margin: 0;
+}
+.firstNameLastContainer {
+  top: 521px;
+  left: 654px;
+  font-size: var(--font-size-5xl);
+  width: 235px;
+  height: 343px;
+}
+.firstNameLastContainer,
+.help,
+.johnSmith167169Container {
+  position: absolute;
+  display: inline-block;
+}
+.johnSmith167169Container {
+  top: 519px;
+  left: 806px;
+  font-size: var(--font-size-5xl);
+  width: 294px;
+  height: 343px;
+}
+.help {
+  top: 1245px;
+  left: 1566px;
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: center;
+  width: 73px;
+  height: 25px;
+}
+.image43Icon {
+  position: absolute;
+  top: 248px;
+  left: 1332px;
+  width: 191px;
+  height: 187px;
+  object-fit: cover;
+}
+.profilePage2Item {
+  position: absolute;
+  top: 240.5px;
+  left: 1324.5px;
+  width: 206px;
+  height: 206px;
+}
+.image130,
+.image132 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 402px;
+  left: 1506px;
+  width: 26px;
+  height: 26px;
+  background-image: url(/public/image130@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.image132 {
+  top: 465px;
+  left: 889px;
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lightcyan);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 576px;
+  height: 121px;
+}
+.donationHistory {
+  position: absolute;
+  top: 40px;
+  left: 119px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 337px;
+  height: 40px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 576px;
+  height: 121px;
+  text-align: center;
+}
+.subscriptions {
+  position: absolute;
+  top: 40px;
+  left: 118px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 337px;
+  height: 40px;
+}
+.groupInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 576px;
+  height: 121px;
+}
+.paymentMethod {
+  position: absolute;
+  top: 40px;
+  left: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 387px;
+  height: 40px;
+}
+.paymentMethodParent,
+.subscriptionsParent {
+  position: absolute;
+  top: 0;
+  left: 576px;
+  width: 576px;
+  height: 121px;
+}
+.subscriptionsParent {
+  left: 575px;
+  width: 1152px;
+  text-align: center;
+}
+.frameChild1,
+.lineDiv {
+  position: absolute;
+  top: 222.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 1728px;
+  height: 1px;
+}
+.frameChild1 {
+  top: 333.5px;
+  left: -2.5px;
+}
+.div1 {
+  top: 248px;
+  left: 25px;
+  color: var(--color-dimgray-200);
+  width: 245px;
+  height: 60px;
+}
+.cyclingAndVideo,
+.date,
+.div1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.cyclingAndVideo {
+  top: 248px;
+  left: 243px;
+  color: var(--color-dimgray-200);
+  width: 664px;
+  height: 60px;
+}
+.date {
+  top: 156px;
+  left: 25px;
+  text-decoration: underline;
+  font-weight: 600;
+  width: 176px;
+  height: 32px;
+}
+.groupParent {
+  position: absolute;
+  top: 896px;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+  width: 1728px;
+  height: 1192px;
+  overflow: hidden;
+  color: var(--color-steelblue);
+}
+.div3,
+.donationHistory2 {
+  position: absolute;
+  top: 248px;
+  left: 1214px;
+  color: var(--color-dimgray-200);
+  display: flex;
+  align-items: center;
+  width: 133px;
+  height: 60px;
+}
+.donationHistory2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 40px;
+  left: 119px;
+  font-size: var(--font-size-13xl);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-steelblue);
+  text-align: center;
+  justify-content: center;
+  width: 337px;
+  height: 40px;
+}
+.rectangleContainer {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 576px;
+  height: 121px;
+}
+.frameChild4 {
+  position: absolute;
+  top: 698.5px;
+  left: 0.5px;
+  border-top: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 1728px;
+  height: 1px;
+}
+.amountPerPeriod,
+.loremIpsumDolor,
+.subscription {
+  position: absolute;
+  top: 289px;
+  left: 59px;
+  display: flex;
+  align-items: center;
+  width: 664px;
+  height: 60px;
+}
+.amountPerPeriod,
+.subscription {
+  top: 175px;
+  left: 991px;
+  width: 319px;
+}
+.amountPerPeriod {
+  top: 247px;
+}
+.creditCard,
+.div4,
+.div5,
+.div6,
+.monthly,
+.paymentMethod2,
+.totalDonatedIncl,
+.totalTipped {
+  position: absolute;
+  top: 319px;
+  left: 991px;
+  display: flex;
+  align-items: center;
+  width: 319px;
+  height: 60px;
+}
+.creditCard,
+.div4,
+.div5,
+.div6,
+.monthly,
+.paymentMethod2,
+.totalTipped {
+  top: 391px;
+}
+.creditCard,
+.div4,
+.div5,
+.div6,
+.monthly,
+.paymentMethod2 {
+  top: 175px;
+  left: 1328px;
+}
+.creditCard,
+.div4,
+.div5,
+.div6,
+.paymentMethod2 {
+  top: 247px;
+  width: 133px;
+}
+.creditCard,
+.div5,
+.div6,
+.paymentMethod2 {
+  top: 319px;
+}
+.creditCard,
+.div6,
+.paymentMethod2 {
+  top: 391px;
+  width: 192px;
+}
+.creditCard,
+.paymentMethod2 {
+  top: 463px;
+  left: 991px;
+  width: 319px;
+}
+.creditCard {
+  left: 1328px;
+  width: 244px;
+}
+.div7,
+.div8,
+.nextPayment,
+.nextPayment1,
+.paymentMethod3,
+.paypal {
+  position: absolute;
+  top: 535px;
+  left: 991px;
+  display: flex;
+  align-items: center;
+  width: 319px;
+  height: 60px;
+}
+.div7,
+.div8,
+.nextPayment1,
+.paymentMethod3,
+.paypal {
+  left: 1328px;
+  width: 244px;
+}
+.div8,
+.nextPayment1,
+.paymentMethod3,
+.paypal {
+  top: 1044px;
+  left: 992px;
+  width: 319px;
+}
+.div8,
+.nextPayment1,
+.paypal {
+  left: 1329px;
+  width: 244px;
+}
+.div8,
+.nextPayment1 {
+  top: 1126px;
+  left: 992px;
+  width: 319px;
+}
+.div8 {
+  left: 1329px;
+  width: 244px;
+}
+.editThisSubscription {
+  text-decoration: none;
+  position: absolute;
+  top: 637px;
+  left: 1433px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-steelblue);
+  display: inline-block;
+  width: 294px;
+  height: 28px;
+  cursor: pointer;
+}
+.image133 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 638px;
+  left: 1390px;
+  width: 26px;
+  height: 26px;
+  background-image: url(/public/image130@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.active,
+.stopped {
+  position: absolute;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+.active {
+  top: 159px;
+  left: 1568px;
+  color: var(--color-seagreen);
+  width: 131px;
+}
+.stopped {
+  top: 737px;
+  left: 1500px;
+  color: rgba(185, 49, 47, 0.5);
+  text-align: right;
+  width: 199px;
+}
+.groupA,
+.groupButton {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  width: 576px;
+  height: 121px;
+}
+.groupButton {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 576px;
+}
+.groupA {
+  text-decoration: none;
+  left: 1152px;
+}
+.frameDiv {
+  position: absolute;
+  top: 896px;
+  left: -3px;
+  background-color: var(--color-whitesmoke);
+  width: 1728px;
+  height: 1454px;
+  overflow: hidden;
+}
+.cyclingAndVideo2,
+.loremIpsumDolor1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.cyclingAndVideo2 {
+  top: 1071px;
+  left: 51px;
+  font-weight: 600;
+  color: var(--color-steelblue);
+  width: 787px;
+  height: 32px;
+}
+.loremIpsumDolor1 {
+  top: 1763px;
+  left: 56px;
+  width: 664px;
+  height: 60px;
+}
+.amountPerPeriod1,
+.div10,
+.div11,
+.div9,
+.monthly1,
+.subscriptionPeriod,
+.totalDonatedIncl1,
+.totalTipped1 {
+  position: absolute;
+  top: 1649px;
+  left: 988px;
+  display: flex;
+  align-items: center;
+  width: 319px;
+  height: 60px;
+}
+.amountPerPeriod1,
+.div10,
+.div11,
+.div9,
+.monthly1,
+.totalDonatedIncl1,
+.totalTipped1 {
+  top: 1721px;
+}
+.div10,
+.div11,
+.div9,
+.monthly1,
+.totalDonatedIncl1,
+.totalTipped1 {
+  top: 1793px;
+}
+.div10,
+.div11,
+.div9,
+.monthly1,
+.totalTipped1 {
+  top: 1865px;
+}
+.div10,
+.div11,
+.div9,
+.monthly1 {
+  top: 1649px;
+  left: 1325px;
+}
+.div10,
+.div11,
+.div9 {
+  top: 1721px;
+  width: 133px;
+}
+.div10,
+.div11 {
+  top: 1793px;
+}
+.div11 {
+  top: 1865px;
+  width: 192px;
+}
+.reactivateSubscription {
+  text-decoration: none;
+  position: absolute;
+  top: 2119px;
+  left: 1404px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-steelblue);
+  display: inline-block;
+  width: 299px;
+  height: 28px;
+  cursor: pointer;
+}
+.image1331 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 2120px;
+  left: 1361px;
+  width: 26px;
+  height: 26px;
+  background-image: url(/public/image130@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.artSessionsAt {
+  position: absolute;
+  top: 1649px;
+  left: 51px;
+  font-weight: 600;
+  color: var(--color-steelblue);
+  display: flex;
+  align-items: center;
+  width: 787px;
+  height: 32px;
+}
+.myPersonalProfile {
+  position: absolute;
+  top: 32px;
+  left: 30px;
+  font-weight: 600;
+  display: inline-block;
+  width: 1050px;
+  height: 55px;
+}
+.myPersonalProfileWrapper {
+  position: absolute;
+  top: 278px;
+  left: 0;
+  border-radius: 0 var(--br-3xs) var(--br-3xs) 0;
+  background-color: var(--color-goldenrod);
+  width: 1100px;
+  height: 118px;
+  overflow: hidden;
+  text-align: right;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+}
+.myDashboard {
+  position: absolute;
+  top: 494px;
+  left: 1231px;
+  font-size: var(--font-size-xl);
+  color: var(--color-steelblue);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 197px;
+  height: 36px;
+  cursor: pointer;
+}
+.a,
+.image187,
+.myDashboard {
+  text-decoration: none;
+}
+.image187 {
+  position: absolute;
+  top: 504px;
+  left: 1426px;
+  width: 23px;
+  height: 17px;
+  background-image: url(/public/image182@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.a {
+  top: 494px;
+  left: 1455px;
+  font-size: var(--font-size-xl);
+  color: var(--color-steelblue);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 39px;
+  height: 36px;
+}
+.a,
+.seeAllMy,
+.takkPoints {
+  cursor: pointer;
+  position: absolute;
+}
+.takkPoints {
+  text-decoration: none;
+  top: 494px;
+  left: 1484px;
+  font-size: var(--font-size-xl);
+  color: var(--color-steelblue);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 171px;
+  height: 36px;
+}
+.seeAllMy {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 60px;
+  left: 316px;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-dimgray-100);
+  text-align: justify;
+  display: inline-block;
+  width: 164px;
+  height: 20px;
+}
+.groupChild7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-steelblue);
+  width: 185px;
+  height: 39px;
+}
+.physicalActivity {
+  position: absolute;
+  top: 7px;
+  left: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 148px;
+  height: 24px;
+}
+.groupChild8,
+.groupDiv {
+  position: absolute;
+  height: 39px;
+}
+.groupDiv {
+  top: 10px;
+  left: 147px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 185px;
+}
+.groupChild8 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-steelblue);
+  width: 130px;
+}
+.medical {
+  position: absolute;
+  top: 7.16px;
+  left: 28.54px;
+  font-weight: 600;
+  display: inline-block;
+  width: 73.01px;
+  height: 23.88px;
+}
+.rectangleParent1,
+.rectangleParent2 {
+  position: absolute;
+  top: 10px;
+  left: 11px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 130px;
+  height: 39px;
+}
+.rectangleParent2 {
+  left: 338px;
+}
+.seeAllMyTagsParent {
+  position: absolute;
+  top: 574px;
+  left: 1200px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 480px;
+  height: 124px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-snow);
+}
+.copyrightAndInformation,
+.johnSmith {
+  position: absolute;
+  display: inline-block;
+}
+.johnSmith {
+  top: 447px;
+  left: 1318px;
+  color: var(--color-gray-200);
+  text-align: center;
+  width: 218px;
+  height: 36px;
+}
+.copyrightAndInformation {
+  top: 26px;
+  left: 515px;
+  font-weight: 600;
+  width: 697px;
+  height: 73px;
+}
+.copyrightAndInformationAbouWrapper {
+  position: absolute;
+  top: 2350px;
+  left: 0;
+  background-color: var(--color-goldenrod);
+  width: 1727px;
+  height: 303px;
+  overflow: hidden;
+  color: var(--color-gray-100);
+}
+.ellipseIcon,
+.profilePage2Inner {
+  position: absolute;
+  top: 562px;
+  left: 116px;
+  width: 151px;
+  height: 151px;
+}
+.ellipseIcon {
+  top: 558px;
+  left: 361px;
+  height: 154px;
+}
+.div12,
+.div13,
+.donated,
+.raised {
+  position: absolute;
+  top: 606px;
+  left: 116px;
+  font-weight: 800;
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 62px;
+}
+.div13,
+.donated,
+.raised {
+  top: 604px;
+  left: 361px;
+}
+.donated,
+.raised {
+  top: 733px;
+  left: 83px;
+  color: var(--color-goldenrod);
+  width: 216px;
+  height: 28px;
+}
+.donated {
+  top: 731px;
+  left: 321px;
+  width: 229px;
+}
+.profilePage2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2652px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-inter);
+}
