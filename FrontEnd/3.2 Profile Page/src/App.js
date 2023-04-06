@@ -7,6 +7,13 @@ import {
 import ProfilePage1 from "./pages/ProfilePage1";
 import ProfilePage3 from "./pages/ProfilePage3";
 import ProfilePage2 from "./pages/ProfilePage2";
+
+import EditPersonalInformation from "./pages/EditPersonalPage/EditPersonalInformation";
+import ProfilePage1Edit from "./pages/EditPersonalPage/ProfilePage1";
+import ProfilePage3Edit from "./pages/EditPersonalPage/ProfilePage3";
+import ProfilePage2Edit from "./pages/EditPersonalPage/ProfilePage2";
+import FrameComponent from "./pages/EditPersonalPage/FrameComponent";
+import MacBookPro161 from "./pages/EditPersonalPage/MacBookPro161";
 import { useEffect } from "react";
 
 function App() {
@@ -58,6 +65,13 @@ function App() {
       <Route path="/" element={<ProfilePage1 />} />
       <Route path="/32-profile-page-3" element={<ProfilePage3 />} />
       <Route path="/32-profile-page-2" element={<ProfilePage2 />} />
+
+      <Route path="/EditPersonalInformation" element={<EditPersonalInformation />} />
+      <Route path="/32-profile-page-1Edit" element={<ProfilePage1 />} />
+      <Route path="/32-profile-page-3Edit" element={<ProfilePage3 />} />
+      <Route path="/32-profile-page-2Edit" element={<ProfilePage2 />} />
+      <Route path="/frame-145" element={<FrameComponent />} />
+      <Route path="/macbook-pro-16-1" element={<MacBookPro161 />} />
     </Routes>
   );
 }

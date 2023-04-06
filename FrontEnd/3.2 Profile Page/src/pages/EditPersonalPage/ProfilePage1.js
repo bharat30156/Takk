@@ -178,9 +178,9 @@ const ProfilePage1 = () => {
         <p className={styles.firstName}>john.smith@here.co.uk</p>
         <p className={styles.password}>**********</p>
       </div>
-      <Link to= "/EditPersonalInformation"><button className={styles.editPersonalDetails}>
+      <button className={styles.editPersonalDetails}>
         Edit personal details...
-      </button></Link>
+      </button>
       <img className={styles.image43Icon} alt="" src="/image-43@2x.png" />
       <img className={styles.profilePage1Item} alt="" src="/ellipse-29.svg" />
       <button className={styles.image130} />
