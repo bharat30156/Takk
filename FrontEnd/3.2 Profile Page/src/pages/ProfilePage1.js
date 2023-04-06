@@ -25,7 +25,7 @@ const ProfilePage1 = () => {
           <div className={styles.frameChild} />
         </div>
         <div className={styles.nameOfUser}>Name of User</div>
-        <img className={styles.frameItem} alt="" src="/ellipse-4@2x.png" />
+        <Link to="/PersonalDashboard"><img className={styles.frameItem} alt="" src="/ellipse-4@2x.png" /></Link>
         <div className={styles.ellipseParent}>
           <img className={styles.groupChild} alt="" src="/ellipse-51.svg" />
           <div className={styles.div}>3</div>
@@ -196,7 +196,7 @@ const ProfilePage1 = () => {
       <div className={styles.myPersonalProfileWrapper}>
         <div className={styles.myPersonalProfile1}>My Personal Profile</div>
       </div>
-      <button className={styles.myDashboard}>My dashboard</button>
+      <Link to="/PersonalDashboard"><button className={styles.myDashboard}>My dashboard</button></Link>
       <div className={styles.seeAllMyTagsParent}>
         <button className={styles.seeAllMy}>See all my tags...</button>
         <div className={styles.groupDiv}>
