@@ -1,0 +1,871 @@
+.theNameOf {
+  position: absolute;
+  top: 71px;
+  left: 68px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  width: 557px;
+  height: 40px;
+}
+.frameChild {
+  border: 1px solid var(--color-darkgray);
+  background-color: var(--color-white);
+  top: 146px;
+  border-radius: var(--br-md);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  height: 53px;
+  cursor: pointer;
+  font-size: var(--font-size-sm);
+}
+.aDescriptionOf,
+.frameChild,
+.frameItem {
+  position: absolute;
+  left: 68px;
+  width: 922px;
+}
+.aDescriptionOf {
+  top: 264px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  height: 40px;
+}
+.frameItem {
+  border: 1px solid var(--color-darkgray);
+  background-color: var(--color-white);
+  top: 339px;
+  border-radius: var(--br-md);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  height: 202px;
+  cursor: pointer;
+  font-size: var(--font-size-sm);
+}
+.theLocationOf,
+.yourCommunityPictures {
+  position: absolute;
+  top: 922px;
+  left: 68px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  width: 843px;
+  height: 40px;
+}
+.yourCommunityPictures {
+  top: 620px;
+}
+.frameInner {
+  position: absolute;
+  top: 997px;
+  left: 68px;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 922px;
+  height: 53px;
+}
+.chooseCountry {
+  position: absolute;
+  top: 1003px;
+  left: 93px;
+  color: var(--color-gray);
+  display: inline-block;
+  width: 306px;
+  height: 42px;
+}
+.lineDiv {
+  position: absolute;
+  top: 996.5px;
+  left: 910.5px;
+  border-right: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 1px;
+  height: 54px;
+}
+.image89Icon {
+  position: absolute;
+  top: 1008px;
+  left: 935px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.image134,
+.rectangleButton {
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+}
+.image134 {
+  border: 0;
+  background-color: transparent;
+  top: 1008px;
+  left: 935px;
+  width: 30px;
+  height: 30px;
+  background-image: url(../../public/image-89@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.rectangleButton {
+  border: 1px solid var(--color-darkgray);
+  background-color: var(--color-white);
+  top: 234px;
+  left: 1192px;
+  border-radius: var(--br-md);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 430px;
+  height: 53px;
+}
+.image90 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 245px;
+  left: 1572px;
+  width: 27px;
+  height: 30px;
+  background-image: url(../../public/image90@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.b,
+.ellipseIcon,
+.image90 {
+  position: absolute;
+}
+.b {
+  top: 509px;
+  left: 921px;
+  font-size: var(--font-size-2xs);
+  display: inline-block;
+  color: var(--color-goldenrod);
+  text-align: center;
+  width: 58px;
+  height: 19px;
+}
+.ellipseIcon {
+  top: 153px;
+  left: 1048px;
+  width: 39px;
+  height: 39px;
+}
+.div {
+  position: absolute;
+  top: 158px;
+  left: 1061px;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.frameChild1 {
+  position: absolute;
+  top: 153px;
+  left: 1645px;
+  width: 39px;
+  height: 39px;
+}
+.div1 {
+  position: absolute;
+  top: 158px;
+  left: 1658px;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.frameChild2 {
+  position: absolute;
+  top: 339px;
+  left: 1048px;
+  width: 39px;
+  height: 39px;
+}
+.div2 {
+  position: absolute;
+  top: 344px;
+  left: 1061px;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.frameChild3 {
+  position: absolute;
+  top: 616px;
+  left: 1048px;
+  width: 39px;
+  height: 39px;
+}
+.div3 {
+  position: absolute;
+  top: 621px;
+  left: 1061px;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.frameChild4 {
+  position: absolute;
+  top: 1006px;
+  left: 1048px;
+  width: 39px;
+  height: 39px;
+}
+.div4 {
+  position: absolute;
+  top: 1011px;
+  left: 1061px;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.frameChild5 {
+  position: absolute;
+  top: 70.5px;
+  left: 1162.5px;
+  border-right: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 1px;
+  height: 2092px;
+}
+.frameChild6,
+.frameChild7 {
+  position: absolute;
+  top: 782.5px;
+  left: 67.5px;
+  border-top: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 438px;
+  height: 1px;
+}
+.frameChild7 {
+  top: 1206.5px;
+  width: 1020px;
+}
+.lineIcon {
+  position: absolute;
+  top: 280px;
+  left: 1192px;
+  width: 425px;
+  height: 1.95px;
+}
+.cancel,
+.groupChild,
+.save {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+}
+.groupChild {
+  background-color: var(--color-seagreen);
+  top: 0;
+  left: 132.61px;
+  border-radius: var(--br-sm);
+  width: 200.39px;
+  height: 49px;
+}
+.cancel,
+.save {
+  background-color: transparent;
+  font-size: var(--font-size-xs);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  text-align: center;
+  display: inline-block;
+  width: 126.23px;
+  height: 30px;
+}
+.save {
+  top: 10px;
+  left: 171.9px;
+  color: var(--color-snow);
+}
+.cancel {
+  top: 9px;
+  left: 0;
+  color: var(--color-steelblue);
+}
+.rectangleParent {
+  position: absolute;
+  top: 2224px;
+  left: 1306px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 333px;
+  height: 49px;
+}
+.frameChild8 {
+  position: absolute;
+  top: 304px;
+  left: -10998px;
+  background-color: var(--color-whitesmoke);
+  width: 1530px;
+  height: 12px;
+}
+.frameChild10,
+.frameChild9 {
+  position: absolute;
+  box-sizing: border-box;
+}
+.frameChild9 {
+  top: 233.5px;
+  left: 1554.5px;
+  border-right: 1px solid var(--color-darkgray);
+  width: 1px;
+  height: 54px;
+}
+.frameChild10 {
+  top: 139px;
+  left: 1192px;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkgray);
+  width: 430px;
+  height: 80px;
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-steelblue);
+  width: 190px;
+  height: 49px;
+}
+.education1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.education {
+  position: absolute;
+  top: 9px;
+  left: 34px;
+  font-weight: 600;
+  display: inline-block;
+  width: 121px;
+  height: 30px;
+}
+.groupInner,
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  height: 49px;
+}
+.rectangleGroup {
+  left: 173px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 190px;
+}
+.groupInner {
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-steelblue);
+  width: 164px;
+}
+.blankLine {
+  margin: 0;
+}
+.medical {
+  position: absolute;
+  top: 9px;
+  left: 36px;
+  font-weight: 600;
+  display: inline-block;
+  width: 92.11px;
+  height: 30px;
+}
+.groupParent,
+.rectangleContainer {
+  position: absolute;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 49px;
+}
+.rectangleContainer {
+  top: 0;
+  left: 0;
+  width: 164px;
+}
+.groupParent {
+  top: 153px;
+  left: 1206px;
+  width: 363px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-snow);
+}
+.image182Icon,
+.image51Icon {
+  position: absolute;
+  left: 68px;
+  width: 30px;
+  height: 29.12px;
+  object-fit: cover;
+}
+.image51Icon {
+  top: 677px;
+}
+.image182Icon {
+  top: 731px;
+}
+.image132,
+.image183 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 675px;
+  left: 335px;
+  width: 24px;
+  height: 30.4px;
+  background-image: url(../../public/image132@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.image183 {
+  top: 730px;
+}
+.image133Icon {
+  position: absolute;
+  top: 806px;
+  left: 68px;
+  width: 30px;
+  height: 31px;
+  object-fit: cover;
+}
+.frameChild11 {
+  position: absolute;
+  top: 391px;
+  left: 1639px;
+  width: 39px;
+  height: 39px;
+}
+.div5 {
+  position: absolute;
+  top: 396px;
+  left: 1652px;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.image160 {
+  top: 1316px;
+  left: 505px;
+}
+.image160,
+.image161,
+.image162,
+.image163,
+.image164,
+.image165,
+.image166,
+.image167,
+.image168,
+.image176 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 30px;
+  height: 31px;
+  background-image: url(../../public/image160@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.image161 {
+  top: 1366px;
+  left: 473px;
+}
+.image162 {
+  top: 1685px;
+  left: 535px;
+}
+.image163 {
+  top: 1631px;
+  left: 421px;
+}
+.image164 {
+  top: 1964px;
+  left: 208px;
+}
+.image165 {
+  top: 2015px;
+  left: 287px;
+}
+.image166 {
+  top: 495px;
+  left: 1447px;
+}
+.image167 {
+  top: 541px;
+  left: 1368px;
+}
+.image176 {
+  top: 590px;
+  left: 1447px;
+}
+.image168 {
+  top: 445px;
+  left: 1376px;
+}
+.perranbayjpg,
+.thetownjpg {
+  position: absolute;
+  top: 669px;
+  left: 114px;
+  display: inline-block;
+  width: 221px;
+  height: 46px;
+}
+.thetownjpg {
+  top: 721px;
+  width: 209px;
+}
+.frameChild12,
+.frameChild13 {
+  position: absolute;
+  box-sizing: border-box;
+}
+.frameChild12 {
+  top: 1112px;
+  left: 68px;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkgray);
+  width: 922px;
+  height: 53px;
+}
+.frameChild13 {
+  top: 1111.5px;
+  left: 910.5px;
+  border-right: 1px solid var(--color-darkgray);
+  width: 1px;
+  height: 54px;
+}
+.image184 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1124px;
+  left: 935px;
+  width: 30px;
+  height: 30px;
+  background-image: url(../../public/image-89@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.chooseRegion,
+.initiativesInThe {
+  position: absolute;
+  display: inline-block;
+}
+.chooseRegion {
+  top: 1118px;
+  left: 93px;
+  color: var(--color-gray);
+  width: 274px;
+  height: 42px;
+}
+.initiativesInThe {
+  top: 1233px;
+  left: 68px;
+  font-size: var(--font-size-lg);
+  width: 843px;
+  height: 40px;
+}
+.artLessonsAt,
+.indoorCyclingAt {
+  text-decoration: none;
+  position: absolute;
+  left: 68px;
+  color: var(--color-steelblue);
+  display: inline-block;
+  height: 46px;
+  cursor: pointer;
+}
+.indoorCyclingAt {
+  top: 1309px;
+  width: 441px;
+}
+.artLessonsAt {
+  top: 1359px;
+  width: 383px;
+}
+.addANew,
+.image185,
+.image186 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.addANew {
+  top: 1449px;
+  left: 124px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-steelblue);
+  text-align: left;
+  display: inline-block;
+  width: 441px;
+  height: 46px;
+}
+.image185,
+.image186 {
+  top: 1456px;
+  left: 68px;
+  width: 30px;
+  height: 31px;
+  background-image: url(../../public/image-133@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.image186 {
+  top: 1798px;
+}
+.frameChild14 {
+  position: absolute;
+  top: 1429.5px;
+  left: 67.5px;
+  border-top: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 438px;
+  height: 1px;
+}
+.organisationsInThe {
+  position: absolute;
+  top: 1545px;
+  left: 68px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  width: 843px;
+  height: 40px;
+}
+.perranBayCare,
+.perranBayCommunity {
+  text-decoration: none;
+  position: absolute;
+  top: 1627px;
+  left: 68px;
+  color: var(--color-steelblue);
+  display: inline-block;
+  width: 353px;
+  height: 46px;
+  cursor: pointer;
+}
+.perranBayCommunity {
+  top: 1678px;
+  width: 467px;
+}
+.frameChild15 {
+  position: absolute;
+  top: 1760.5px;
+  left: 67.5px;
+  border-top: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 438px;
+  height: 1px;
+}
+.addANew1 {
+  text-decoration: none;
+  position: absolute;
+  top: 1791px;
+  left: 124px;
+  color: var(--color-steelblue);
+  display: inline-block;
+  width: 441px;
+  height: 46px;
+  cursor: pointer;
+}
+.cornwallArts,
+.productService {
+  position: absolute;
+  left: 68px;
+  display: inline-block;
+}
+.productService {
+  top: 1881px;
+  font-size: var(--font-size-lg);
+  width: 843px;
+  height: 40px;
+}
+.cornwallArts {
+  text-decoration: none;
+  top: 2011px;
+  color: var(--color-steelblue);
+  width: 205px;
+  height: 46px;
+  cursor: pointer;
+}
+.frameChild16 {
+  position: absolute;
+  top: 2078.5px;
+  left: 67.5px;
+  border-top: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 438px;
+  height: 1px;
+}
+.addANew2,
+.image144 {
+  cursor: pointer;
+  position: absolute;
+}
+.addANew2 {
+  text-decoration: none;
+  top: 2115px;
+  left: 124px;
+  color: var(--color-steelblue);
+  display: inline-block;
+  width: 603px;
+  height: 46px;
+}
+.image144 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 2122px;
+  left: 68px;
+  width: 30px;
+  height: 31px;
+  background-image: url(../../public/image-133@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frameChild17 {
+  position: absolute;
+  top: 1546px;
+  left: 1035px;
+  width: 39px;
+  height: 39px;
+}
+.div6 {
+  position: absolute;
+  top: 1550px;
+  left: 1049px;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.frameChild18 {
+  position: absolute;
+  top: 1234px;
+  left: 1035px;
+  width: 39px;
+  height: 39px;
+}
+.div8 {
+  position: absolute;
+  top: 1239px;
+  left: 1048px;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.frameChild19 {
+  position: absolute;
+  top: 1877px;
+  left: 1036px;
+  width: 39px;
+  height: 39px;
+}
+.div10 {
+  position: absolute;
+  top: 1881px;
+  left: 1050px;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.tags {
+  top: 71px;
+  left: 1192px;
+  font-size: var(--font-size-lg);
+  width: 132px;
+  height: 51px;
+}
+.chooseFromAll,
+.communityMembers,
+.tags {
+  position: absolute;
+  display: inline-block;
+}
+.chooseFromAll {
+  top: 248px;
+  left: 1208px;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray);
+  width: 198px;
+  height: 36px;
+}
+.communityMembers {
+  top: 379px;
+  left: 1193px;
+  font-size: var(--font-size-lg);
+  width: 424px;
+  height: 40px;
+}
+.asonJudd,
+.debbieJohnson {
+  position: absolute;
+  color: var(--color-steelblue);
+  display: inline-block;
+  height: 46px;
+}
+.debbieJohnson,
+.johnSmith {
+  left: 1192px;
+}
+.johnSmith {
+  top: 440px;
+  width: 176px;
+}
+.johnSmith,
+.winifredTimber {
+  position: absolute;
+  color: var(--color-steelblue);
+  display: inline-block;
+  height: 46px;
+}
+.debbieJohnson {
+  top: 487px;
+  width: 255px;
+}
+.asonJudd {
+  top: 533px;
+  left: 1193px;
+  width: 170px;
+}
+.winifredTimber {
+  left: 1193px;
+  top: 585px;
+  width: 254px;
+}
+.theNameOfYourCommunityParent {
+  position: absolute;
+  top: 176px;
+  left: 0;
+  background-color: var(--color-azure);
+  width: 1728px;
+  height: 2344px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+  font-family: var(--font-inter);
+}
+
+.uploadPicture{
+  position: absolute;
+  top: 850px;
+  left: 68px;
+
+  }

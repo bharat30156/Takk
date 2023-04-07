@@ -1,0 +1,92 @@
+.image9 {
+  position: absolute;
+  top: 18px;
+  left: 130px;
+  width: 20px;
+  height: 20px;
+}
+.image127,
+.image128 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 423px;
+  left: 75px;
+  width: 52px;
+  height: 52px;
+  background-image: url(../../public/image127@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.image128 {
+  left: 214px;
+  background-image: url(../../public/image128@3x.png);
+}
+.span {
+  color: var(--color-goldenrod-200);
+}
+.image129,
+.relatedOrganization {
+  cursor: pointer;
+  position: absolute;
+}
+.relatedOrganization {
+  text-decoration: none;
+  top: 245px;
+  left: 25px;
+  font-weight: 800;
+  display: inline-block;
+  width: 398px;
+  height: 36px;
+  color: inherit;
+}
+.image129 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 423px;
+  left: 353px;
+  width: 52px;
+  height: 52px;
+  background-image: url(../../public/image129@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frameChild {
+  position: absolute;
+  top: 495px;
+  left: 62px;
+  border-radius: var(--br-xs);
+  width: 356px;
+  height: 63px;
+}
+.joinCommunity {
+  position: absolute;
+  top: 502px;
+  left: 117px;
+  font-size: var(--font-size-2xl);
+  font-weight: 600;
+  color: var(--color-white);
+  display: inline-block;
+  width: 235px;
+  height: 41px;
+}
+.image9Parent {
+  position: absolute;
+  top: 82px;
+  left: 1213px;
+  border-radius: var(--br-lg);
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 480px;
+  height: 572px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-steelblue);
+  font-family: var(--font-inter);
+}

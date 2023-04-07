@@ -1,0 +1,67 @@
+/* Default styles */
+.copyright-and-information {
+  position: absolute;
+  top: 26px;
+  left: 515px;
+  font-weight: 600;
+  display: inline-block;
+  width: 697px;
+  height: 73px;
+}
+
+ .copyright-and-information-abou-wrapper {
+  position: absolute;
+  top: 4627px;
+  left: 0;
+  background-color: var(--color-goldenrod-200);
+  width: 1727px;
+  height: 303px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--color-gray);
+  font-family: var(--font-inter);
+}
+
+@media (min-width:2480px) {
+
+  .copyright-and-information {
+    position: absolute;
+    top: 26px;
+    left: 43%;
+    font-weight: 600;
+    display: inline-block;
+    width: 697px;
+    height: 73px;
+  }
+  .copyright-and-information-abou-wrapper {
+    position: absolute;
+    top: 4627px;
+    left: 0;
+    background-color: var(--color-goldenrod-200);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-4xl);
+    color: var(--color-gray);
+    font-family: var(--font-inter);
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  /* Adjust the position and width of the copyright element */
+  .copyright-and-information {
+    position: static;
+    top: auto;
+    left: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Adjust the height of the wrapper element */
+  .copyright-and-information-abou-wrapper {
+    height: 150px;
+  }
+}

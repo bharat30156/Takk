@@ -1,6 +1,15 @@
 import styles from "./PersonalDashBoard.module.css";
+import { useCallback } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 const PersonalDashBoard = () => {
+  const navigate = useNavigate();
+
+  const onGroupLinkClick = useCallback(() => {
+    navigate("/MyCommunities");
+  }, [navigate]);
+
+
   return (
     <div className={styles.personalDashboard}>
       <div className={styles.takkLogoYellow2Parent}>
@@ -84,8 +93,8 @@ const PersonalDashBoard = () => {
         <div className={styles.groupChild1} />
         <b className={styles.myInitiatives}>My Initiatives</b>
       </button>
-      <button className={styles.myCommunitiesParent}>
-        <b className={styles.myCommunities}>My Communities</b>
+      <button className={styles.myCommunitiesParent}  onClick={onGroupLinkClick}>
+      <b className={styles.myCommunities}>My Communities</b>
         <div className={styles.groupChild2} />
         <div className={styles.myProductsServicesParent}>
           <b className={styles.myProducts}>{`My Products & Services`}</b>

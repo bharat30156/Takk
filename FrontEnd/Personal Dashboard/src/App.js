@@ -5,6 +5,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import PersonalDashBoard from "./pages/PersonalDashBoard";
+import MyCommunities from "./pages/MyCommunities";
 import { useEffect } from "react";
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<PersonalDashBoard />} />
+      <Route path="/MyCommunities" element={<MyCommunities />} />
     </Routes>
   );
 }
