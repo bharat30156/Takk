@@ -1,0 +1,144 @@
+.takkLogoYellow2 {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 434px;
+  height: 241px;
+  object-fit: cover;
+}
+.frameChild,
+.frameWrapper {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 837px;
+  height: 96px;
+  overflow: hidden;
+}
+.frameWrapper {
+  top: 10px;
+  left: 479px;
+  width: 100px;
+  height: 100px;
+}
+.search {
+  position: absolute;
+  top: 12px;
+  left: 264px;
+  display: inline-block;
+  width: 84px;
+  height: 26px;
+}
+.image6Icon {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 39px;
+  height: 38px;
+  object-fit: cover;
+}
+.searchParent {
+  position: absolute;
+  top: 81px;
+  left: 579px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 612px;
+  height: 51px;
+  overflow: hidden;
+  color: var(--color-darkgray-100);
+}
+.nameOfUser {
+  text-decoration: none;
+  position: absolute;
+  top: 34px;
+  left: 1498px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: inherit;
+  text-align: center;
+  display: inline-block;
+  width: 133px;
+  height: 30px;
+}
+.frameItem {
+  position: absolute;
+  top: 15px;
+  left: 1644px;
+  width: 53px;
+  height: 53px;
+  object-fit: cover;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+}
+.div,
+.ellipseParent {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+}
+.ellipseParent {
+  top: 49px;
+  left: 1680px;
+  width: 28px;
+  height: 28px;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-malgun-gothic);
+}
+.community,
+.donate,
+.getFundraising {
+  text-decoration: none;
+  position: absolute;
+  top: 22px;
+  left: 31px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  width: 266px;
+  height: 51px;
+  cursor: pointer;
+}
+.community,
+.donate {
+  left: 357px;
+  width: 124px;
+}
+.community {
+  left: 541px;
+  width: 207px;
+}
+.getFundraisingParent {
+  position: absolute;
+  top: 0;
+  left: 513px;
+  width: 792px;
+  height: 88px;
+  overflow: hidden;
+  font-size: var(--font-size-13xl);
+}
+.frameInner,
+.takkLogoYellow2Parent {
+  position: absolute;
+  top: 175px;
+  left: 0;
+  width: 1728px;
+  height: 797px;
+  overflow: hidden;
+}
+.takkLogoYellow2Parent {
+  top: 2px;
+  background-color: var(--color-white);
+  height: 176px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray-300);
+  font-family: var(--font-inter);
+}
