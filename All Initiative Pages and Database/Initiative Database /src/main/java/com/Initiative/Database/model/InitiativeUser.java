@@ -26,4 +26,6 @@ public class InitiativeUser {
     private String county;
     @Column(name = "region")
     private String region;
+    @Column(name= "tags")
+    private String tags;
 }

@@ -48,6 +48,7 @@ public class InitiativeUserServiceImpl implements InitiativeUserService {
         existingInitiative.setImagesAndVideo(initiativeUser.getImagesAndVideo());
         existingInitiative.setCounty(initiativeUser.getCounty());
         existingInitiative.setRegion(initiativeUser.getRegion());
+        existingInitiative.setTags(initiativeUser.getTags());
 
         initiativeUserRepository.save(existingInitiative);
         return existingInitiative;

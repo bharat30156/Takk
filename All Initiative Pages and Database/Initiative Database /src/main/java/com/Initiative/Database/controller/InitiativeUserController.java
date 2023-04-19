@@ -44,7 +44,7 @@ public class InitiativeUserController {
     }
 
     // Building Api to get Initiatives by their ID
-    //http://localhost:8080/api/initiativeUser/1
+    //http://localhost:8081/api/initiativeUser/1
     @GetMapping("{id}")
     public ResponseEntity<InitiativeUser> getInitiativeUserByID(@PathVariable("id") long initiativeUserid){
         return new ResponseEntity<InitiativeUser>(initiativeUserService.getInitiativeUserByID(initiativeUserid), HttpStatus.OK);
