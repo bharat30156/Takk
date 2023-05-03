@@ -20,6 +20,7 @@ public class InitiativeUser {
     @Column(name = "short_initiative_description")
     private String shortDescriptionOfInitiative;
     @Column(name = "initiative_imagesAndVideo")
+    @Lob
     private byte[] imagesAndVideo;
     @Column(name = "country")
     private String country;
