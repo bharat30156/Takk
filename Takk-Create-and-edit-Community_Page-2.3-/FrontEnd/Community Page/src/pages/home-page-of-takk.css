@@ -1,0 +1,172 @@
+.image-7-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 407px;
+  height: 252px;
+  object-fit: cover;
+}
+.overview-of-the {
+  position: absolute;
+  top: 57px;
+  left: 19px;
+  font-weight: 500;
+  display: inline-block;
+  width: 373px;
+  height: 38px;
+}
+.frame-child,
+.name-of-person {
+  position: absolute;
+  top: 112px;
+  left: 10.61px;
+  width: 41px;
+  height: 41px;
+}
+.name-of-person {
+  top: 120px;
+  left: 61px;
+  font-weight: 500;
+  display: inline-block;
+  width: 154px;
+  height: 26px;
+}
+.group-child,
+.rectangle-wrapper {
+  position: absolute;
+  width: 181px;
+  height: 38px;
+}
+.group-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-seagreen);
+}
+.rectangle-wrapper {
+  top: 160px;
+  left: 207px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.find-out-more,
+.title-of-the {
+  position: absolute;
+  display: inline-block;
+}
+.find-out-more {
+  top: 167px;
+  left: 234px;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-white);
+  width: 133px;
+  height: 23px;
+}
+.title-of-the {
+  top: 13px;
+  left: 73px;
+  font-size: var(--font-size-2xl);
+  width: 261px;
+  height: 30px;
+}
+.overview-of-the-initiative-for-parent {
+  position: absolute;
+  top: 252px;
+  left: 0;
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 407px;
+  height: 213px;
+  overflow: hidden;
+}
+.image-7-parent {
+  position: absolute;
+  top: 94px;
+  left: 66px;
+  border-radius: var(--br-md);
+  width: 407px;
+  height: 465px;
+  overflow: hidden;
+}
+.group-item,
+.overview-of-the-initiative-for-group {
+  position: absolute;
+  left: 0;
+  border-radius: var(--br-md);
+}
+.group-item {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-seagreen);
+  top: 0;
+  width: 181px;
+  height: 38px;
+}
+.overview-of-the-initiative-for-group {
+  top: 252px;
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 407px;
+  height: 213px;
+  overflow: hidden;
+}
+.image-7-container,
+.image-7-group {
+  position: absolute;
+  top: 94px;
+  border-radius: var(--br-md);
+  width: 407px;
+  height: 465px;
+  overflow: hidden;
+}
+.image-7-group {
+  left: 610px;
+}
+.image-7-container {
+  left: 1154px;
+}
+.see-more {
+  position: absolute;
+  top: 595px;
+  left: 1415px;
+  font-size: var(--font-size-4xl);
+  font-weight: 600;
+  color: var(--color-steelblue);
+  display: inline-block;
+  width: 164px;
+  height: 36px;
+}
+.frame-parent {
+  position: absolute;
+  top: 94px;
+  left: 47px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 1634px;
+  height: 651px;
+  overflow: hidden;
+}
+.home-page-of-takk-inner {
+  position: absolute;
+  top: 2761px;
+  left: 2032px;
+  background-color: #f4ffff;
+  width: 1728px;
+  height: 833px;
+  overflow: hidden;
+}
+.home-page-of-takk {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 4930px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+

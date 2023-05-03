@@ -1,0 +1,195 @@
+.associatedInitiativeWith {
+  position: absolute;
+  top: 9px;
+  left: 14px;
+  font-size: var(--font-size-3xl);
+  display: inline-block;
+  color: var(--color-gray-100);
+  width: 421px;
+  height: 80px;
+}
+.frameChild {
+  position: absolute;
+  top: 108.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 481px;
+  height: 1px;
+}
+.seeAllCommunity {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1686px;
+  left: 101px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-dimgray-100);
+  text-align: justify;
+  display: inline-block;
+  width: 277px;
+  height: 20px;
+}
+.image7Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 407px;
+  height: 252px;
+  object-fit: cover;
+}
+.overviewOfThe {
+  position: absolute;
+  top: 57px;
+  left: 19px;
+  font-weight: 500;
+  display: inline-block;
+  width: 373px;
+  height: 38px;
+}
+.frameItem {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-seagreen);
+  position: absolute;
+  top: 160px;
+  left: 207px;
+  border-radius: var(--br-xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.findOutMore,
+.titleOfThe {
+  position: absolute;
+  display: inline-block;
+}
+.findOutMore {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 167px;
+  left: 234px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  width: 133px;
+  height: 23px;
+}
+.titleOfThe {
+  top: 13px;
+  left: 19px;
+  font-size: var(--font-size-xl);
+  width: 261px;
+  height: 30px;
+}
+.overviewOfTheInitiativeForParent {
+  position: absolute;
+  top: 252px;
+  left: 0;
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 407px;
+  height: 213px;
+  overflow: hidden;
+}
+.image7Parent {
+  position: absolute;
+  top: 151px;
+  left: 36px;
+  border-radius: var(--br-xs);
+  width: 407px;
+  height: 465px;
+  overflow: hidden;
+}
+.groupChild,
+.rectangleWrapper {
+  position: absolute;
+  width: 181px;
+  height: 38px;
+}
+.groupChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-seagreen);
+}
+.rectangleWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 160px;
+  left: 207px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.image7Group,
+.overviewOfTheInitiativeForGroup {
+  position: absolute;
+  border-radius: var(--br-xs);
+  width: 407px;
+  overflow: hidden;
+}
+.overviewOfTheInitiativeForGroup {
+  top: 252px;
+  left: 0;
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  height: 213px;
+}
+.image7Group {
+  top: 669px;
+  left: 36px;
+  height: 465px;
+}
+.groupItem,
+.rectangleContainer {
+  position: absolute;
+  width: 181px;
+  height: 38px;
+}
+.groupItem {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-seagreen);
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+}
+.rectangleContainer {
+  top: 160px;
+  left: 207px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.image7Container {
+  position: absolute;
+  top: 1187px;
+  left: 36px;
+  border-radius: var(--br-xs);
+  width: 407px;
+  height: 465px;
+  overflow: hidden;
+}
+.associatedInitiativeWithThiParent {
+  position: absolute;
+  top: 1027px;
+  left: 1213px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 480px;
+  height: 1728px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
