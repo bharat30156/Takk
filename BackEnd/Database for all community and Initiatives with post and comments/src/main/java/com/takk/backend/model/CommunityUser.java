@@ -27,9 +27,16 @@ public class CommunityUser {
     private String country;
     @Column(name = "region")
     private String region;
-    @Column(name = "tags")
-    private String tags;
     @OneToMany(mappedBy = "communityUser", cascade = CascadeType.ALL)
     private List<Post> posts;
+
+    @ManyToMany
+    @JoinTable(
+            name = "communityuser_tag",
+            joinColumns = @JoinColumn(name = "communityuser_id"),
+            inverseJoinColumns = @JoinColumn(name = "tag_id")
+    )
+    private List<Tag> tags;
+
 }
 

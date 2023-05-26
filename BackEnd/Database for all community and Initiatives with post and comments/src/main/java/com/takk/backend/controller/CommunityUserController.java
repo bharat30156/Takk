@@ -1,11 +1,9 @@
 package com.takk.backend.controller;
 
 
-import com.takk.backend.model.Comment;
-import com.takk.backend.model.CommunityUser;
-import com.takk.backend.model.Like;
-import com.takk.backend.model.Post;
+import com.takk.backend.model.*;
 import com.takk.backend.service.CommunityUserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -19,6 +17,7 @@ public class CommunityUserController {
 
     private CommunityUserService communityUserService;
 
+    @Autowired
     public CommunityUserController(CommunityUserService communityUserService) {
         super();
         this.communityUserService = communityUserService;
@@ -146,5 +145,36 @@ public class CommunityUserController {
         communityUserService.deleteLike(likeId);
         return new ResponseEntity<String>("Like deleted successfully", HttpStatus.OK);
     }
+
+
+    // End Points for tags
+    @PostMapping("/tags/create")
+    // http://localhost:8080/api/communityUser/tags/create
+    public Tag createTag(@RequestBody Tag tag) {
+        return communityUserService.saveTag(tag);
+    }
+
+    @GetMapping("/tags")
+    // http://localhost:8080/api/communityUser/tags
+    public List<Tag> getAllTags() {
+        return communityUserService.getAllTags();
+    }
+
+    @GetMapping("/{communityUserId}/tags")
+    // http://localhost:8080/api/communityUser/{communityUserId}/tags
+    public List<Tag> getTagsByCommunityUserId(@PathVariable("communityUserId") long communityUserId) {
+        return communityUserService.getTagsByCommunityUserId(communityUserId);
+    }
+
+    @PostMapping("/{communityUserId}/tags/{tagId}")
+    // http://localhost:8080/api/communityUser/{communityUserId}/tags/{tagId}
+    public ResponseEntity<String> addTagToCommunityUser(
+            @PathVariable("communityUserId") long communityUserId,
+            @PathVariable("tagId") long tagId
+    ) {
+        communityUserService.addTagToCommunityUser(communityUserId, tagId);
+        return ResponseEntity.ok("Tag added successfully to CommunityUser.");
+    }
+
 }
 

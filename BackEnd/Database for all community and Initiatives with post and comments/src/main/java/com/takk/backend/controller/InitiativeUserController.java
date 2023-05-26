@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @RestController
 @CrossOrigin("http://localhost:3000")
@@ -62,5 +63,14 @@ public class InitiativeUserController {
         //delete the initiative from database
         initiativeUserService.deleteInitiativeUser(id);
         return new ResponseEntity<String>("Initiative deleted Sucessfully", HttpStatus.OK);
+    }
+
+    // Endpoint to get all initiative Names
+    @GetMapping("/names")
+    public List<String> getAllInitiativeNames(){
+        List<InitiativeUser> initiativeUsers = initiativeUserService.getAllInitiativeUser();
+        return initiativeUsers.stream()
+                .map(InitiativeUser::getNameofInitiative)
+                .collect(Collectors.toList());
     }
 }

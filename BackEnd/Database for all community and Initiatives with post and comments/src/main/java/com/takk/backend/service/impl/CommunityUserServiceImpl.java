@@ -3,14 +3,8 @@ package com.takk.backend.service.impl;
 
 
 import com.takk.backend.exception.ResourceNotFoundException;
-import com.takk.backend.model.CommunityUser;
-import com.takk.backend.model.Comment;
-import com.takk.backend.model.Like;
-import com.takk.backend.model.Post;
-import com.takk.backend.repository.CommunityUserRepository;
-import com.takk.backend.repository.CommentRepository;
-import com.takk.backend.repository.LikeRepository;
-import com.takk.backend.repository.PostRepository;
+import com.takk.backend.model.*;
+import com.takk.backend.repository.*;
 import com.takk.backend.service.CommunityUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -24,18 +18,21 @@ public class CommunityUserServiceImpl implements CommunityUserService {
     private PostRepository postRepository;
     private CommentRepository commentRepository;
     private LikeRepository likeRepository;
+    private final TagRepository tagRepository;
+
 
 
 
     @Autowired
-    public CommunityUserServiceImpl(CommunityUserRepository communityUserRepository) {
+    public CommunityUserServiceImpl(CommunityUserRepository communityUserRepository, TagRepository tagRepository) {
         super();
         this.communityUserRepository = communityUserRepository;
         this.postRepository = postRepository;
         this.commentRepository = commentRepository;
         this.likeRepository = likeRepository;
-
+        this.tagRepository = tagRepository;
     }
+
 
     // all services for communities
     @Override
@@ -74,7 +71,6 @@ public class CommunityUserServiceImpl implements CommunityUserService {
         existingCommunity.setLocation(communityUser.getLocation());
         existingCommunity.setCountry(communityUser.getCountry());
         existingCommunity.setRegion(communityUser.getRegion());
-        existingCommunity.setTags(communityUser.getTags());
 
         //save existing community information
         communityUserRepository.save(existingCommunity);
@@ -185,5 +181,40 @@ public class CommunityUserServiceImpl implements CommunityUserService {
         likeRepository.deleteById(likeId);
     }
 
+    // Methods of Tag
+    @Override
+    public List<Tag> getAllTags() {
+        return tagRepository.findAll();
+    }
+
+    @Override
+    public Tag saveTag(Tag tag) {
+        return tagRepository.save(tag);
+    }
+
+    @Override
+    public List<Tag> getTagsByCommunityUserID(long id) {
+        CommunityUser communityUser = communityUserRepository.findById(id).orElseThrow(() ->
+                new ResourceNotFoundException("CommunityUser", "Id", id));
+        return communityUser.getTags();
+    }
+
+    @Override
+    public List<Tag> getTagsByCommunityUserId(long communityUserId) {
+        CommunityUser communityUser = communityUserRepository.findById(communityUserId)
+                .orElseThrow(() -> new ResourceNotFoundException("CommunityUser", "Id", communityUserId));
+        return communityUser.getTags();
+    }
+
+    @Override
+    public CommunityUser addTagToCommunityUser(long communityUserId, long tagId) {
+        CommunityUser communityUser = communityUserRepository.findById(communityUserId).orElseThrow(() ->
+                new ResourceNotFoundException("CommunityUser", "Id", communityUserId));
+        Tag tag = tagRepository.findById(tagId).orElseThrow(() ->
+                new ResourceNotFoundException("Tag", "Id", tagId));
+
+        communityUser.getTags().add(tag);
+        return communityUserRepository.save(communityUser);
+    }
 
 }
