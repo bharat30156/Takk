@@ -1,0 +1,9 @@
+.image96Icon {
+  position: absolute;
+  top: 82px;
+  left: 90px;
+  border-radius: var(--br-xs);
+  width: 1017px;
+  height: 505px;
+  object-fit: cover;
+}

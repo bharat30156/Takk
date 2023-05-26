@@ -1,0 +1,152 @@
+.takkLogoYellow2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 418px;
+  height: 270px;
+  object-fit: cover;
+}
+.frameChild,
+.frameWrapper {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 837px;
+  height: 96px;
+  overflow: hidden;
+}
+.frameWrapper {
+  top: 10px;
+  left: 479px;
+  width: 100px;
+  height: 100px;
+}
+.nameOfUser {
+  position: absolute;
+  top: 34px;
+  left: 1498px;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  width: 133px;
+  height: 30px;
+}
+.frameItem {
+  position: absolute;
+  top: 15px;
+  left: 1644px;
+  width: 53px;
+  height: 53px;
+  object-fit: cover;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+}
+.div,
+.ellipseParent {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+}
+.ellipseParent {
+  top: 49px;
+  left: 1680px;
+  width: 28px;
+  height: 28px;
+  font-size: var(--font-size-3xs);
+  color: var(--color-white);
+  font-family: var(--font-malgun-gothic);
+}
+.community,
+.donate,
+.getFundraising {
+  text-decoration: none;
+  position: absolute;
+  top: 22px;
+  left: 31px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  width: 266px;
+  height: 51px;
+  cursor: pointer;
+}
+.community,
+.donate {
+  left: 357px;
+  width: 124px;
+}
+.community {
+  left: 541px;
+  width: 207px;
+}
+.getFundraisingParent {
+  top: 0;
+  left: 513px;
+  width: 792px;
+  height: 88px;
+  font-size: var(--font-size-3xl);
+}
+.frameInner,
+.frameInput,
+.getFundraisingParent {
+  position: absolute;
+  overflow: hidden;
+}
+.frameInner {
+  top: 175px;
+  left: 0;
+  width: 1728px;
+  height: 797px;
+}
+.frameInput {
+  border: 1px solid var(--color-darkgray-100);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-lg);
+  background-color: var(--color-white);
+  top: 85px;
+  left: 579px;
+  border-radius: var(--br-md);
+  box-sizing: border-box;
+  width: 612px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-lg);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.image6Icon {
+  position: relative;
+  width: 39px;
+  height: 38px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image6Wrapper {
+  position: absolute;
+  top: 81px;
+  left: 579px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-sm);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.takkLogoYellow2Parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1728px;
+  height: 253px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-300);
+  font-family: var(--font-inter);
+}
