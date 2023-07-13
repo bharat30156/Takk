@@ -1,0 +1,642 @@
+.takkLogoYellow2 {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 434px;
+  height: 241px;
+  object-fit: cover;
+}
+.editPersonalInformationInner,
+.frameChild {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 837px;
+  height: 96px;
+  overflow: hidden;
+}
+.editPersonalInformationInner {
+  top: 10px;
+  left: 479px;
+  width: 100px;
+  height: 100px;
+}
+.nameOfUser {
+  position: absolute;
+  top: 33px;
+  left: 1428px;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  width: 158px;
+  height: 30px;
+}
+.editPersonalInformationChild {
+  position: absolute;
+  top: 15px;
+  left: 1644px;
+  width: 53px;
+  height: 53px;
+  object-fit: cover;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+}
+.div,
+.ellipseParent {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+}
+.ellipseParent {
+  top: 47px;
+  left: 1677px;
+  width: 28px;
+  height: 28px;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-malgun-gothic);
+}
+.community,
+.donate,
+.getFundraising {
+  text-decoration: none;
+  position: absolute;
+  top: 22px;
+  left: 31px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  width: 266px;
+  height: 51px;
+  cursor: pointer;
+}
+.community,
+.donate {
+  left: 357px;
+  width: 124px;
+}
+.community {
+  left: 541px;
+  width: 207px;
+}
+.getFundraisingParent {
+  position: absolute;
+  top: 0;
+  left: 513px;
+  width: 792px;
+  height: 73px;
+  overflow: hidden;
+  font-size: var(--font-size-13xl);
+}
+.frameDiv,
+.frameItem {
+  position: absolute;
+  top: 304px;
+  left: -10998px;
+  background-color: var(--color-whitesmoke);
+  width: 1530px;
+  height: 12px;
+}
+.frameDiv {
+  top: 176px;
+  left: 0;
+  background-color: var(--color-azure);
+  width: 1728px;
+  height: 2344px;
+  overflow: hidden;
+}
+.copyrightAndInformation {
+  position: absolute;
+  top: 33px;
+  left: 515px;
+  font-weight: 600;
+  display: inline-block;
+  width: 698px;
+  height: 73px;
+}
+.copyrightAndInformationAbouWrapper {
+  position: absolute;
+  top: 2520px;
+  left: 0;
+  background-color: var(--color-goldenrod);
+  width: 1727px;
+  height: 303px;
+  overflow: hidden;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.yourFirstName {
+  position: absolute;
+  top: 275px;
+  left: 345px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  width: 557px;
+  height: 40px;
+}
+.editPersonalInformationItem {
+  border: 1px solid var(--color-darkgray);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 334px;
+  left: 345px;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 922px;
+  height: 53px;
+  cursor: pointer;
+}
+.yourLastName {
+  position: absolute;
+  top: 449px;
+  left: 345px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  width: 557px;
+  height: 40px;
+}
+.rectangleTextarea {
+  border: 1px solid var(--color-darkgray);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 502px;
+  left: 345px;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 922px;
+  height: 53px;
+  cursor: pointer;
+}
+.yourCountry,
+.yourCounty {
+  position: absolute;
+  top: 1122px;
+  left: 348px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  width: 843px;
+  height: 40px;
+}
+.yourCountry {
+  top: 1280px;
+}
+.editPersonalInformationChild1,
+.rectangleDiv {
+  position: absolute;
+  top: 1175px;
+  left: 348px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 922px;
+  height: 53px;
+}
+.editPersonalInformationChild1 {
+  cursor: pointer;
+}
+.lineDiv {
+  position: absolute;
+  top: 1174.5px;
+  left: 1190.5px;
+  border-right: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 1px;
+  height: 54px;
+}
+.image189Icon,
+.image190 {
+  position: absolute;
+  top: 1186px;
+  left: 1215px;
+  width: 30px;
+  height: 30px;
+}
+.image189Icon {
+  object-fit: cover;
+}
+.image190 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  background-image: url(/public/image-189@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.ellipseIcon {
+  position: absolute;
+  top: 341px;
+  left: 1325px;
+  width: 39px;
+  height: 39px;
+}
+.div1 {
+  position: absolute;
+  top: 346px;
+  left: 1338px;
+  color: var(--color-white);
+}
+.editPersonalInformationChild2 {
+  position: absolute;
+  top: 509px;
+  left: 1325px;
+  width: 39px;
+  height: 39px;
+}
+.div2 {
+  position: absolute;
+  top: 514px;
+  left: 1338px;
+  color: var(--color-white);
+}
+.yourEmaillogin {
+  position: absolute;
+  top: 1563px;
+  left: 348px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  width: 557px;
+  height: 40px;
+}
+.editPersonalInformationChild3 {
+  border: 1px solid var(--color-darkgray);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 1622px;
+  left: 348px;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 922px;
+  height: 53px;
+  cursor: pointer;
+}
+.yourPassword {
+  position: absolute;
+  top: 1737px;
+  left: 348px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  width: 557px;
+  height: 40px;
+}
+.editPersonalInformationChild4 {
+  border: 1px solid var(--color-darkgray);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 1790px;
+  left: 348px;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 922px;
+  height: 53px;
+  cursor: pointer;
+}
+.editPersonalInformationChild5 {
+  position: absolute;
+  top: 1629px;
+  left: 1328px;
+  width: 39px;
+  height: 39px;
+}
+.div3 {
+  position: absolute;
+  top: 1634px;
+  left: 1341px;
+  color: var(--color-white);
+}
+.editPersonalInformationChild6 {
+  position: absolute;
+  top: 1797px;
+  left: 1328px;
+  width: 39px;
+  height: 39px;
+}
+.div4 {
+  position: absolute;
+  top: 1802px;
+  left: 1341px;
+  color: var(--color-white);
+}
+.confirmYourPassword {
+  position: absolute;
+  top: 1895px;
+  left: 348px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  width: 557px;
+  height: 40px;
+}
+.editPersonalInformationChild7 {
+  border: 1px solid var(--color-darkgray);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 1948px;
+  left: 348px;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 922px;
+  height: 53px;
+  cursor: pointer;
+}
+.editPersonalInformationChild8 {
+  position: absolute;
+  top: 1955px;
+  left: 1328px;
+  width: 39px;
+  height: 39px;
+}
+.div5 {
+  position: absolute;
+  top: 1960px;
+  left: 1341px;
+  color: var(--color-white);
+}
+.yourStreet {
+  position: absolute;
+  top: 698px;
+  left: 345px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  width: 557px;
+  height: 40px;
+}
+.editPersonalInformationChild9 {
+  border: 1px solid var(--color-darkgray);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 751px;
+  left: 345px;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 922px;
+  height: 53px;
+  cursor: pointer;
+}
+.editPersonalInformationChild10 {
+  position: absolute;
+  top: 758px;
+  left: 1325px;
+  width: 39px;
+  height: 39px;
+}
+.div6,
+.yourCity {
+  position: absolute;
+}
+.div6 {
+  top: 763px;
+  left: 1338px;
+  color: var(--color-white);
+}
+.yourCity {
+  top: 835px;
+  left: 345px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  width: 557px;
+  height: 40px;
+}
+.editPersonalInformationChild11 {
+  border: 1px solid var(--color-darkgray);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 888px;
+  left: 345px;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 922px;
+  height: 53px;
+  cursor: pointer;
+}
+.editPersonalInformationChild12 {
+  position: absolute;
+  top: 895px;
+  left: 1325px;
+  width: 39px;
+  height: 39px;
+}
+.div7 {
+  position: absolute;
+  top: 900px;
+  left: 1338px;
+  color: var(--color-white);
+}
+.yourPostcode {
+  position: absolute;
+  top: 972px;
+  left: 347px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  width: 557px;
+  height: 40px;
+}
+.editPersonalInformationChild13 {
+  border: 1px solid var(--color-darkgray);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 1025px;
+  left: 347px;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 922px;
+  height: 53px;
+  cursor: pointer;
+}
+.editPersonalInformationChild14 {
+  position: absolute;
+  top: 1032px;
+  left: 1327px;
+  width: 39px;
+  height: 39px;
+}
+.div8 {
+  position: absolute;
+  top: 1037px;
+  left: 1340px;
+  color: var(--color-white);
+}
+.editPersonalInformationChild15 {
+  position: absolute;
+  top: 1184px;
+  left: 1328px;
+  width: 39px;
+  height: 39px;
+}
+.div9 {
+  position: absolute;
+  top: 1189px;
+  left: 1341px;
+  color: var(--color-white);
+}
+.editPersonalInformationChild16,
+.editPersonalInformationChild17 {
+  position: absolute;
+  top: 632.5px;
+  left: 355.5px;
+  border-top: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 1009px;
+  height: 1px;
+}
+.editPersonalInformationChild17 {
+  top: 1478.5px;
+}
+.cancel,
+.groupItem,
+.save {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+}
+.groupItem {
+  background-color: var(--color-seagreen);
+  top: 0;
+  left: 135px;
+  border-radius: var(--br-8xs);
+  width: 204px;
+  height: 49px;
+}
+.cancel,
+.save {
+  background-color: transparent;
+  top: 10px;
+  left: 175px;
+  font-size: var(--font-size-5xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-snow);
+  text-align: center;
+  display: inline-block;
+  width: 128.5px;
+  height: 30px;
+}
+.cancel {
+  top: 9px;
+  left: 0;
+  color: var(--color-steelblue);
+}
+.rectangleParent {
+  position: absolute;
+  top: 2372px;
+  left: 1293px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 339px;
+  height: 49px;
+}
+.chooseCounty {
+  position: absolute;
+  top: 1186px;
+  left: 367px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-300);
+  display: inline-block;
+  width: 261px;
+  height: 50px;
+  cursor: pointer;
+}
+.editPersonalInformationChild18 {
+  position: absolute;
+  top: 1340px;
+  left: 347px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 922px;
+  height: 53px;
+}
+.editPersonalInformationChild20 {
+  position: absolute;
+  top: 1339.5px;
+  left: 1189.5px;
+  border-right: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 1px;
+  height: 54px;
+}
+.image191 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1351px;
+  left: 1214px;
+  width: 30px;
+  height: 30px;
+  background-image: url(/public/image-189@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.editPersonalInformationChild21 {
+  position: absolute;
+  top: 1349px;
+  left: 1327px;
+  width: 39px;
+  height: 39px;
+}
+.chooseCountry,
+.div10 {
+  position: absolute;
+  top: 1354px;
+  left: 1340px;
+  color: var(--color-white);
+}
+.chooseCountry {
+  top: 1346px;
+  left: 362px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-300);
+  display: inline-block;
+  width: 834px;
+  height: 50px;
+}
+.editPersonalInformation,
+.frameInput {
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+}
+.frameInput {
+  border: 1px solid var(--color-darkgray);
+  background-color: transparent;
+  position: absolute;
+  top: 80px;
+  left: 579px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 612px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-31xl);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.editPersonalInformation {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2821px;
+  overflow: hidden;
+  text-align: left;
+  color: var(--color-dimgray-200);
+}

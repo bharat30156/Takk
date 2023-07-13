@@ -1,0 +1,31 @@
+
+.imageContainer{
+  position: absolute;
+  top: 82px;
+  left: 90px;
+  border-radius: var(--br-xs);
+  width: 1017px;
+  height: 505px;
+  object-fit: cover;
+}
+.mainimage{  
+  width: 1017px;
+  height: 505px;
+}
+.image51Icon,
+.image62Icon,
+.image63Icon {
+  position: absolute;
+  top: 568px;
+  left: 437px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.image63Icon {
+  left: 584px;
+}
+.image51Icon {
+  left: 980px;
+  height: 29.12px;
+}

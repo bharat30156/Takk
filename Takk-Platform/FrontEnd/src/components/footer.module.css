@@ -1,0 +1,22 @@
+.copyrightAndInformation {
+  position: absolute;
+  top: 33px;
+  left: 515px;
+  font-weight: 600;
+  display: inline-block;
+  width: 698px;
+  height: 73px;
+}
+.copyrightAndInformationAbouWrapper {
+  position: absolute;
+  top: 2520px;
+  left: 1px;
+  background-color: var(--color-goldenrod);
+  width: 1727px;
+  height: 303px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

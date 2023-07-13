@@ -1,0 +1,412 @@
+/*.start-fundraising {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.start-fundraising-wrapper {
+  cursor: grab;
+  border: 0;
+  padding: var(--padding-sm);
+  background-color: var(--color-seagreen);
+  position: absolute;
+  top: 461px;
+  left: 1282px;
+  width: 386px;
+  height: 71px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.imagevideo {
+  position: absolute;
+  top: 122px;
+  left: 84px;
+  font-weight: 500;
+  display: inline-block;
+  width: 260px;
+  height: 60px;
+}
+.line-icon {
+  position: absolute;
+  top: 673px;
+  left: 91px;
+  width: 103.04px;
+  height: 0;
+}
+.start-fundraising-container {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm);
+  background-color: var(--color-seagreen);
+  position: absolute;
+  top: 461px;
+  left: 1282px;
+  width: 386px;
+  height: 71px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.support-the-elderly {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.in-your-community {
+  margin: 0;
+}
+.start-a-fundraising,
+.support-the-elderly-container {
+  position: absolute;
+  display: inline-block;
+}
+.support-the-elderly-container {
+  top: 34px;
+  left: 26px;
+  font-weight: 600;
+  width: 776px;
+  height: 180px;
+}
+.start-a-fundraising {
+  top: 214px;
+  left: 233px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  color: var(--color-white);
+  width: 569px;
+  height: 65px;
+}
+.support-the-elderly-people-in-parent {
+  position: absolute;
+  top: 122px;
+  left: 840px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-goldenrod-200);
+  width: 828px;
+  height: 308px;
+  overflow: hidden;
+  text-align: right;
+  font-size: var(--font-size-7xl);
+  color: var(--color-snow-200);
+}
+.frame-group {
+  position: absolute;
+  top: 261px;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 1728px;
+  height: 654px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+
+@media (min-width:2480px) {
+  .frame-group {
+    position: absolute;
+    top: 261px;
+    left: 0;
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 654px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+
+  .support-the-elderly-people-in-parent {
+    position: absolute;
+    top: 122px;
+    left: 70%;
+    border-radius: var(--br-lg);
+    background-color: var(--color-goldenrod-200);
+    width: 828px;
+    height: 308px;
+    overflow: hidden;
+    text-align: right;
+    font-size: var(--font-size-7xl);
+    color: var(--color-snow-200);
+  }
+
+  .start-fundraising-container {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm);
+    background-color: var(--color-seagreen);
+    position: absolute;
+    top: 461px;
+    left:80%;
+    width: 386px;
+    height: 71px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .start-fundraising-wrapper {
+    cursor: grab;
+    border: 0;
+    padding: var(--padding-sm);
+    background-color: var(--color-seagreen);
+    position: absolute;
+    top: 461px;
+    left: 80%;
+    width: 386px;
+    height: 71px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+
+    
+  @media (max-width: 1200px) {
+    .start-fundraising-wrapper {
+    width: 100%;
+    height: auto;
+    top: auto;
+    left: auto;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .imagevideo {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+    }
+
+    .line-icon {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    margin-top: 2rem;
+    }
+
+    .start-fundraising-container {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    }
+
+    .start-a-fundraising {
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: auto;
+    font-size: var(--font-size-lg);
+    margin-bottom: 2rem;
+    }
+
+    .support-the-elderly-container {
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    }
+
+    .support-the-elderly-people-in-parent {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: var(--font-size-6xl);
+    padding: 2rem;
+    }
+
+    .frame-group {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: auto;
+    font-size: var(--font-size-4xl);
+    padding: 2rem;
+    }
+    }
+
+    @media (max-width: 768px) {
+    .start-fundraising {
+    font-size: var(--font-size-2xl);
+    }
+
+    .support-the-elderly-container {
+    width: 100%;
+    font-size: var(--font-size-lg);
+    }
+
+    .support-the-elderly-people-in-parent {
+    font-size: var(--font-size-5xl);
+    }
+
+    .frame-group {
+    font-size: var(--font-size-3xl);
+    }
+    }
+
+    @media (max-width: 480px) {
+    .start-fundraising {
+    font-size: var(--font-size-xl);
+    }
+
+    .support-the-elderly-container {
+    padding: 1rem;
+    }
+
+    .support-the-elderly-people-in-parent {
+    font-size: var(--font-size-4xl);
+    padding: 1rem;
+    }
+
+    .frame-group {
+    font-size: var(--font-size-2xl);
+    padding: 1rem;
+    }
+    }
+
+    */
+
+    .start-fundraising {
+      position: relative;
+      font-size: var(--font-size-3xl);
+      font-weight: 600;
+      font-family: var(--font-inter);
+      color: var(--color-white);
+      text-align: left;
+    }
+    .start-fundraising-wrapper {
+      cursor: grab;
+      border: 0;
+      padding: var(--padding-sm);
+      background-color: var(--color-seagreen);
+      position: absolute;
+      top: 461px;
+      left: 1282px;
+      width: 386px;
+      height: 71px;
+      display: flex;
+      flex-direction: row;
+      box-sizing: border-box;
+      align-items: center;
+      justify-content: center;
+    }
+    .imagevideo {
+      position: absolute;
+      top: 122px;
+      left: 84px;
+      font-weight: 500;
+      display: inline-block;
+      width: 260px;
+      height: 60px;
+    }
+    .line-icon {
+      position: absolute;
+      top: 673px;
+      left: 91px;
+      width: 103.04px;
+      height: 0;
+    }
+    .start-fundraising-container {
+      cursor: pointer;
+      border: 0;
+      padding: var(--padding-sm);
+      background-color: var(--color-seagreen);
+      position: absolute;
+      top: 461px;
+      left: 1282px;
+      width: 386px;
+      height: 71px;
+      display: flex;
+      flex-direction: row;
+      box-sizing: border-box;
+      align-items: center;
+      justify-content: center;
+    }
+    .support-the-elderly {
+      margin-block-start: 0;
+      margin-block-end: 0;
+    }
+    .in-your-community {
+      margin: 0;
+    }
+    .start-a-fundraising,
+    .support-the-elderly-container {
+      position: absolute;
+      display: inline-block;
+    }
+    .support-the-elderly-container {
+      top: 34px;
+      left: 26px;
+      font-weight: 600;
+      width: 776px;
+      height: 180px;
+    }
+    .start-a-fundraising {
+      top: 214px;
+      left: 233px;
+      font-size: var(--font-size-xl);
+      font-weight: 500;
+      color: var(--color-white);
+      width: 569px;
+      height: 65px;
+    }
+    .support-the-elderly-people-in-parent {
+      position: absolute;
+      top: 122px;
+      left: 840px;
+      border-radius: var(--br-lg);
+      background-color: var(--color-goldenrod-200);
+      width: 828px;
+      height: 308px;
+      overflow: hidden;
+      text-align: right;
+      font-size: var(--font-size-7xl);
+      color: var(--color-snow-200);
+    }
+    .frame-group {
+      position: absolute;
+      top: 261px;
+      left: 0;
+      background-color: var(--color-gainsboro);
+      width: 1728px;
+      height: 654px;
+      overflow: hidden;
+      text-align: left;
+      font-size: var(--font-size-5xl);
+      color: var(--color-black);
+      font-family: var(--font-inter);
+    }
